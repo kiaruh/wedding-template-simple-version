@@ -1,232 +1,129 @@
-*, *::after, *::before {
-  box-sizing: border-box;
-}
-
-html, body {
-  font-size: 6px;
-  background: #fbfbfb;
-  padding: 40px 20px;
-  font-family: "Work Sans", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-@media (min-width: 860px) {
-  html, body {
-    font-size: 8px;
-    padding: 30px 50px;
-  }
-}
-@media (min-width: 1200px) {
-  html, body {
-    font-size: 10px;
-  }
-}
-@media (max-width: 390px) {
-  html, body {
-    font-size: 4.5px;
-    padding: 20px;
-  }
-}
-@media (max-width: 480px) and (min-width: 391px) {
-  html, body {
-    font-size: 5px;
-    padding: 20px;
-  }
-}
-
-.slider-wrapper {
-  position: relative;
-  max-width: 90rem;
-  min-width: 480px;
-  background: #fff;
-  margin: 0 auto;
-  overflow: hidden;
-  box-shadow: 0 0 35px 20px #DDE5EE;
-}
-.slider-wrapper .slider {
-  position: relative;
-  height: 65rem;
-  padding: 5rem 0;
-}
-.slider-wrapper .slider::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.slider-wrapper .slider .slide-wrapper {
-  position: relative;
-  display: block;
-  width: 100%;
-  height: 100%;
-}
-.slider-wrapper .slide-navigation__squares, .slider-wrapper .slide-navigation__txt {
-  width: 10%;
-  position: relative;
-  float: left;
-  overflow: hidden;
-}
-.slider-wrapper .slide-navigation__squares::after, .slider-wrapper .slide-navigation__txt::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.slider-wrapper .slide-navigation__txt {
-  display: block;
-  height: 100%;
-}
-.slider-wrapper .slide-navigation__txt::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.slider-wrapper .slide-navigation__txt ul {
-  margin: 0;
-  list-style: none;
-  padding: 0;
-  position: absolute;
-  display: table-cell;
-  width: 30rem;
-  transform: rotate(90deg);
-  transform-origin: 0;
-  margin-left: calc(50% - 0.14rem);
-}
-.slider-wrapper .slide-navigation__txt ul::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.slider-wrapper .slide-navigation__txt li {
-  text-transform: uppercase;
-  letter-spacing: 0.2rem;
-  margin: 0 1.2rem;
-  position: relative;
-  float: left;
-  font-size: 1.2rem;
-  font-weight: 600;
-  color: #A1A5B8;
-}
-.slider-wrapper .slide-navigation__txt li span {
-  cursor: pointer;
-  transition: all 0.5s ease;
-  display: block;
-}
-.slider-wrapper .slide-navigation__txt li span.active {
-  transform: scale(1.1, 1.1);
-  color: #E34D67;
-}
-.slider-wrapper .slide-navigation__squares {
-  display: block;
-  height: 100%;
-}
-.slider-wrapper .slide-navigation__squares .squares-wrapper {
-  position: absolute;
-  margin-left: calc(50% - 0.4rem);
-  bottom: 5rem;
-  height: 4.6rem;
-  overflow: hidden;
-}
-.slider-wrapper .slide-navigation__squares .squares-slider {
-  position: relative;
-  display: block;
-  margin-top: -2.5rem;
-  transform: translateY(-2.5rem);
-}
-.slider-wrapper .slide-navigation__squares .square {
-  width: 0.6rem;
-  height: 0.6rem;
-  display: block;
-  margin: 1.3rem 0;
-  background: #A1A5B8;
-}
-.slider-wrapper .slide-navigation__squares .square.red {
-  background: #E34D67;
-}
-.slider-wrapper .slides-container {
-  position: relative;
-  width: 80%;
-  float: left;
-  height: 100%;
-}
-.slider-wrapper .slide {
-  position: absolute;
-  display: block;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  visibility: hidden;
-  overflow: hidden;
-  z-index: 1;
-}
-.slider-wrapper .slide img {
-  max-width: 100%;
-  display: block;
-  height: 100%;
-  object-fit: cover;
-}
-.slider-wrapper .slide .slide-content {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  padding: 5rem 5.8rem;
-  overflow: hidden;
-}
-.slider-wrapper .slide .slide-content h1 {
-  text-transform: uppercase;
-  color: white;
-  font-weight: 900;
-  font-size: 10rem;
-  text-align: center;
-  margin: 0;
-  opacity: 0.6;
-  position: relative;
-}
-.slider-wrapper .slide .slide-content h2 {
-  color: #E34D67;
-  font-size: 4.8rem;
-  max-width: 80%;
-  margin: 0;
-  margin-top: -6rem;
-  font-weight: 900;
-  line-height: 1;
-  position: relative;
-}
-.slider-wrapper .slide .slide-txt {
-  position: relative;
-  display: block;
-  width: 100;
-  margin-top: 6rem;
-}
-.slider-wrapper .slide .slide-txt::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.slider-wrapper .slide .slide-txt p {
-  margin: 0;
-  max-width: 55%;
-  color: #666666;
-  font-size: 1.2rem;
-  line-height: 1.4;
-  float: left;
-}
-.slider-wrapper .slide .slide-txt button {
-  display: block;
-  float: right;
-  width: 18rem;
-  text-align: center;
-  background: transparent;
-  background-color: transparent;
-  border: 0.28rem solid #E34D67;
-  text-transform: uppercase;
-  padding: 0.8rem 0.5rem;
-  font-size: 1.5rem;
-  color: #E34D67;
-  font-weight: 600;
-  letter-spacing: 0.2rem;
-  outline: none;
-  overflow: hidden;
-}
-
-/*# sourceMappingURL=style.css.map */
+.wedding, .wedding * { box-sizing: border-box; }.wedding {background: #ffffff; border-radius: 30px; display: flex; flex-direction: column; gap: 10px; align-items: flex-start; justify-content: flex-start; height: 1024px; position: relative;padding: auto; margin: auto; width: 1440px;} 
+ .content {display: flex; flex-direction: column; gap: 0px; align-items: flex-start; justify-content: flex-start; flex-shrink: 0; position: relative;}
+ .hero {background: #ffffff; flex-shrink: 0; width: 1440px; height: 810px; position: relative; overflow: hidden;}
+ .div-modal-body {padding: 16px 42px 16px 42px; display: flex; flex-direction: column; gap: 18px; align-items: center; justify-content: flex-start; position: absolute; left: calc(50% - 407px);top: 261.5px;}
+ .angela-ricardo {color: var(--oliva, #6d6553); text-align: center; font: 500 70px/50px 'Cormorant', sans-serif; position: relative; display: flex;align-items: center;justify-content: center}
+ .diciembre-9-2023-pasto-nari-o-colombia {color: var(--oliva, #6d6553); text-align: center; font: 400 20px/50px 'Libre Baskerville', sans-serif; position: relative; display: flex;align-items: center;justify-content: center}
+ .div-modal-body2 {padding: 40px 42px 40px 42px; display: flex; flex-direction: row; gap: 18px; align-items: center; justify-content: center; flex-shrink: 0; width: 731px; position: relative;}
+ .s-bado-9-de-diciembre-21-00-hs {color: var(--oliva, #6d6553); text-align: center; font: 400 20px/160% 'Libre Baskerville', sans-serif; position: relative; flex: 1; display: flex;align-items: center;justify-content: center}
+ .line-1 {border-style: solid; border-color: var(--oliva, #6d6553); border-width: 1px 0 0 0; flex-shrink: 0; width: 116px; height: 0px; position: relative; transform-origin: 0 0; transform: rotate(90deg) scale(1, 1);}
+ .iglesia-sal-n-pasto-nari-o-colombia {color: var(--oliva, #6d6553); text-align: center; font: 400 20px/160% 'Libre Baskerville', sans-serif; position: relative; flex: 1; display: flex;align-items: center;justify-content: center}
+ .frame-26080039 {display: flex; flex-direction: column; gap: 0px; align-items: center; justify-content: flex-start; position: absolute; left: 240px;top: 665px;}
+ .frame-26080030 {padding: 30px 0px 30px 0px; display: flex; flex-direction: row; gap: 40px; align-items: center; justify-content: center; flex-shrink: 0; width: 960px; position: relative;}
+ .link {border-style: solid; border-color: var(--oliva, #6d6553); border-width: 0px 0px 2px 0px; display: flex; flex-direction: row; gap: 10px; align-items: flex-start; justify-content: flex-start; flex-shrink: 0; position: relative;}
+ .sobre-el-evento {color: var(--oliva, #6d6553); text-align: center; font: var(--bodysm, 400 16px/24px 'Poppins', sans-serif); position: relative; display: flex;align-items: center;justify-content: center}
+ .link2 {display: flex; flex-direction: row; gap: 10px; align-items: flex-start; justify-content: flex-start; flex-shrink: 0; position: relative;}
+ .tips-de-viaje {color: var(--oliva, #6d6553); text-align: center; font: var(--bodysm, 400 16px/24px 'Poppins', sans-serif); position: relative; display: flex;align-items: center;justify-content: center}
+ .alojamiento {color: var(--oliva, #6d6553); text-align: center; font: var(--bodysm, 400 16px/24px 'Poppins', sans-serif); position: relative; display: flex;align-items: center;justify-content: center}
+ .peinado-y-maquillaje {color: var(--oliva, #6d6553); text-align: center; font: var(--bodysm, 400 16px/24px 'Poppins', sans-serif); position: relative; display: flex;align-items: center;justify-content: center}
+ .preguntas-frecuentes {color: var(--oliva, #6d6553); text-align: center; font: var(--bodysm, 400 16px/24px 'Poppins', sans-serif); position: relative; display: flex;align-items: center;justify-content: center}
+ .flores-1 {width: 601px; height: 417px; position: absolute; left: 2px;top: -169px;}
+ .flores-1-4-x-1 {width: 374px; height: 531px; position: absolute; left: -96px;top: 434px; transform-origin: 0 0; transform: rotate(0deg) scale(1, -1);}
+ .section {background: var(--olivaclaro, linear-gradient(to left, rgba(109, 101, 83, 0.10), rgba(109, 101, 83, 0.10)), linear-gradient(to left, #ffffff, #ffffff)); padding: 70px 521px 70px 521px; display: flex; flex-direction: column; gap: 10px; align-items: flex-start; justify-content: flex-start; flex-shrink: 0; position: relative;}
+ .div-reloj {flex-shrink: 0; width: 399px; height: 76px; position: relative;}
+ .div-dias {border-style: solid; border-color: #999999; border-width: 0px 1px 0px 0px; height: 76px; position: absolute; right: 299.25px; left: 0px;top: 0px;}
+ .d-as {color: var(--oliva, #6d6553); text-align: center; font: 500 22px/33px 'Cormorant', sans-serif; position: absolute; left: 30.16px;top: 43px; display: flex;align-items: center;justify-content: center}
+ ._172 {color: var(--oliva, #6d6553); text-align: center; font: 500 40px/100% 'Playfair Display', sans-serif; position: absolute; left: 23.16px;top: 0px; display: flex;align-items: center;justify-content: center}
+ .div-horas {border-style: solid; border-color: #999999; border-width: 0px 1px 0px 0px; height: 76px; position: absolute; right: 199.5px; left: 99.75px;top: 0px;}
+ .hs {color: var(--oliva, #6d6553); text-align: center; font: 500 22px/33px 'Cormorant', sans-serif; position: absolute; left: 37.33px;top: 43px; display: flex;align-items: center;justify-content: center}
+ ._12 {color: var(--oliva, #6d6553); text-align: center; font: 500 40px/100% 'Playfair Display', sans-serif; position: absolute; left: 32.25px;top: 0px; display: flex;align-items: center;justify-content: center}
+ .div-minutos {border-style: solid; border-color: #999999; border-width: 0px 1px 0px 0px; height: 76px; position: absolute; right: 99.75px; left: 199.5px;top: 0px;}
+ .min {color: var(--oliva, #6d6553); text-align: center; font: 500 22px/33px 'Cormorant', sans-serif; position: absolute; left: 30.89px;top: 43px; display: flex;align-items: center;justify-content: center}
+ ._9 {color: var(--oliva, #6d6553); text-align: center; font: 500 40px/100% 'Playfair Display', sans-serif; position: absolute; left: 38.5px;top: 0px; display: flex;align-items: center;justify-content: center}
+ ._18 {color: var(--oliva, #6d6553); text-align: center; font: 500 40px/100% 'Playfair Display', sans-serif; position: absolute; left: 330px;top: 0px; display: flex;align-items: center;justify-content: center}
+ .seg {color: var(--oliva, #6d6553); text-align: center; font: 500 22px/33px 'Cormorant', sans-serif; position: absolute; left: 333.36px;top: 43px; display: flex;align-items: center;justify-content: center}
+ .hero2 {background: #ffffff; padding: 100px 293px 100px 293px; display: flex; flex-direction: column; gap: 77px; align-items: center; justify-content: flex-start; align-self: stretch;flex-shrink: 0; position: relative; overflow: hidden;}
+ .div-modal-body3 {padding: 0px 42px 0px 42px; display: flex; flex-direction: column; gap: 18px; align-items: center; justify-content: flex-start; flex-shrink: 0; position: relative;}
+ .ceremonia {color: var(--oliva, #6d6553); text-align: center; font: 500 40px/50px 'Cormorant', sans-serif; position: relative; display: flex;align-items: center;justify-content: center}
+ .s-bado-9-de-diciembre-18-00-hs {color: var(--oliva, #6d6553); text-align: center; font: 400 20px/160% 'Libre Baskerville', sans-serif; position: relative; flex: 1; display: flex;align-items: center;justify-content: center}
+ .iglesia-pasto-nari-o-colombia {color: var(--oliva, #6d6553); text-align: center; font: 400 20px/160% 'Libre Baskerville', sans-serif; position: relative; flex: 1; display: flex;align-items: center;justify-content: center}
+ .botones {padding: 30px 10px 0px 10px; display: flex; flex-direction: row; gap: 30px; align-items: flex-start; justify-content: flex-start; flex-shrink: 0; position: relative;}
+ .frame-26080033 {border-radius: 160px; border-style: solid; border-color: var(--oliva, #6d6553); border-width: 1px; padding: 12px 20px 12px 20px; display: flex; flex-direction: row; gap: 10px; align-items: center; justify-content: center; flex-shrink: 0; position: relative;}
+ .ver-en-mapa {color: var(--oliva, #6d6553); text-align: center; font: var(--body, 400 18px/150% 'Poppins', sans-serif); position: relative; display: flex;align-items: center;justify-content: center}
+ .frame-26080034 {border-radius: 160px; border-style: solid; border-color: var(--oliva, #6d6553); border-width: 1px; padding: 12px 20px 12px 20px; display: flex; flex-direction: row; gap: 10px; align-items: center; justify-content: center; flex-shrink: 0; position: relative;}
+ .c-mo-llegar {color: var(--oliva, #6d6553); text-align: center; font: var(--body, 400 18px/150% 'Poppins', sans-serif); position: relative; display: flex;align-items: center;justify-content: center}
+ .fiesta {color: var(--oliva, #6d6553); text-align: center; font: 500 40px/50px 'Cormorant', sans-serif; position: relative; display: flex;align-items: center;justify-content: center}
+ .hotel-v-1501-calle-20-33-60 {color: var(--oliva, #6d6553); text-align: center; font: 400 20px/160% 'Libre Baskerville', sans-serif; position: relative; flex: 1; display: flex;align-items: center;justify-content: center}
+ .section2 {background: var(--dorado, #bc865a); padding: 100px 521px 100px 521px; display: flex; flex-direction: column; gap: 10px; align-items: center; justify-content: center; flex-shrink: 0; width: 1440px; position: relative;}
+ .div-modal-body4 {padding: 16px 42px 16px 42px; display: flex; flex-direction: column; gap: 18px; align-items: center; justify-content: flex-start; flex-shrink: 0; position: relative;}
+ .rsvp {color: var(--crema, #fff8f2); text-align: center; font: 500 40px/50px 'Cormorant', sans-serif; position: relative; display: flex;align-items: center;justify-content: center}
+ .agradecemos-si-pudieras-confirmar-tu-asistencia-hasta-30-d-as-antes-del-evento {color: var(--crema, #fff8f2); text-align: center; font: var(--body, 400 18px/150% 'Poppins', sans-serif); position: relative; display: flex;align-items: center;justify-content: center}
+ .frame-26080035 {padding: 30px 10px 0px 10px; display: flex; flex-direction: column; gap: 10px; align-items: flex-start; justify-content: flex-start; flex-shrink: 0; position: relative;}
+ .frame-260800342 {border-radius: 160px; border-style: solid; border-color: var(--crema, #fff8f2); border-width: 1px; padding: 12px 20px 12px 20px; display: flex; flex-direction: row; gap: 10px; align-items: center; justify-content: center; flex-shrink: 0; position: relative;}
+ .confirmar-asistencia {color: var(--crema, #fff8f2); text-align: center; font: var(--body, 400 18px/150% 'Poppins', sans-serif); position: relative; display: flex;align-items: center;justify-content: center}
+ .hero3 {background: #ffffff; padding: 100px 293px 100px 293px; display: flex; flex-direction: column; gap: 40px; align-items: center; justify-content: flex-start; flex-shrink: 0; width: 1440px; position: relative; overflow: hidden;}
+ .div-modal-body5 {padding: 16px 0px 16px 0px; display: flex; flex-direction: column; gap: 18px; align-items: center; justify-content: flex-start; align-self: stretch;flex-shrink: 0; position: relative;}
+ .tips-para-viajeros {color: var(--oliva, #6d6553); text-align: center; font: 500 40px/50px 'Cormorant', sans-serif; text-transform: uppercase; position: relative; display: flex;align-items: center;justify-content: center}
+ .sabemos-que-vienen-desde-lejos-y-queremos-ayudarlos-con-algunas-recomendaciones {color: var(--oliva, #6d6553); text-align: center; font: 400 18px/24px 'Poppins', sans-serif; position: relative; display: flex;align-items: center;justify-content: center}
+ .frame-45 {padding: 0px 100px 0px 100px; display: flex; flex-direction: row; gap: 42px; align-items: flex-start; justify-content: flex-start; flex-shrink: 0; position: relative;}
+ .group-5 {flex-shrink: 0; width: 355.91px; height: 586.38px; position: static;}
+ .rectangle-39 {border-radius: 312.89px; width: 334.61px; height: 552.67px; position: absolute; left: 110.65px;top: 16.85px;}
+ .rectangle-40 {border-radius: 207.51px; border-width: 3.91px; border-style: solid; border-image: linear-gradient(180deg, rgba(215, 215, 215, 1.00) 0%,rgba(188, 134, 90, 0.00) 94.79166865348816%); border-image-slice: 1; width: 355.91px; height: 586.38px; position: absolute; left: 100px;top: 0px;}
+ .rectangle-34 {background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%,rgba(0, 0, 0, 1.00) 100%); border-radius: 187.85px; width: 334.89px; height: 553.18px; position: absolute; left: 110.05px;top: 17px;}
+ .d-nde-pasear {color: #ffffff; text-align: center; font: 400 24px 'Poppins', sans-serif; position: absolute; left: 173.87px;top: 474px; width: 208.38px;}
+ .group-6 {flex-shrink: 0; width: 355.91px; height: 586.38px; position: static;}
+ .rectangle-392 {border-radius: 312.89px; width: 334.61px; height: 552.67px; position: absolute; left: 508.57px;top: 16.85px;}
+ .rectangle-402 {border-radius: 207.51px; border-width: 3.91px; border-style: solid; border-image: linear-gradient(180deg, rgba(215, 215, 215, 1.00) 0%,rgba(188, 134, 90, 0.00) 94.79166865348816%); border-image-slice: 1; width: 355.91px; height: 586.38px; position: absolute; left: 497.91px;top: 0px;}
+ .rectangle-342 {background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%,rgba(0, 0, 0, 1.00) 100%); border-radius: 187.85px; width: 334.89px; height: 553.18px; position: absolute; left: 508.05px;top: 17px;}
+ .d-nde-c-mer {color: #ffffff; text-align: center; font: 400 24px 'Poppins', sans-serif; position: absolute; left: 571.87px;top: 474px; width: 208.38px;}
+ .group-17 {flex-shrink: 0; width: 355.91px; height: 586.38px; position: static;}
+ .rectangle-393 {border-radius: 312.89px; width: 334.61px; height: 552.67px; position: absolute; left: 906.48px;top: 16.85px;}
+ .rectangle-403 {border-radius: 207.51px; border-width: 3.91px; border-style: solid; border-image: linear-gradient(180deg, rgba(215, 215, 215, 1.00) 0%,rgba(188, 134, 90, 0.00) 94.79166865348816%); border-image-slice: 1; width: 355.91px; height: 586.38px; position: absolute; left: 895.83px;top: 0px;}
+ .rectangle-343 {background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%,rgba(0, 0, 0, 1.00) 100%); border-radius: 187.85px; width: 334.89px; height: 553.18px; position: absolute; left: 906.05px;top: 17px;}
+ .d-nde-alistarse {color: #ffffff; text-align: center; font: 400 24px 'Poppins', sans-serif; position: absolute; left: 969.87px;top: 474px; width: 208.38px;}
+ .hero4 {background: #ffffff; padding: 40px 160px 40px 160px; display: flex; flex-direction: column; gap: 77px; align-items: center; justify-content: flex-start; align-self: stretch;flex-shrink: 0; position: relative; overflow: hidden;}
+ .div-modal-body6 {display: flex; flex-direction: column; gap: 18px; align-items: center; justify-content: flex-start; align-self: stretch;flex-shrink: 0; position: relative;}
+ .a-tener-en-cuenta {color: var(--oliva, #6d6553); text-align: center; font: 500 40px/50px 'Cormorant', sans-serif; text-transform: uppercase; position: relative; display: flex;align-items: center;justify-content: center}
+ .clima-horarios-barrios {color: var(--oliva, #6d6553); text-align: center; font: 400 20px/50px 'Libre Baskerville', sans-serif; position: relative; display: flex;align-items: center;justify-content: center}
+ .div-modal-body7 {padding: 20px 0px 20px 0px; display: flex; flex-direction: row; gap: 30px; align-items: center; justify-content: center; align-self: stretch;flex-shrink: 0; position: relative;}
+ .el-clima-de-pasto-es-templado-por-la-tarde-puede-ser-ventoso-la-temperatura-suele-ser-de-20-c-con-una-humedad-del-20 {color: var(--oliva, #6d6553); text-align: center; font: var(--body, 400 18px/150% 'Poppins', sans-serif); position: relative; flex: 1; display: flex;align-items: center;justify-content: center}
+ .las-tiendas-suelen-cerrar-por-la-tarde-y-reabrir-a-la-noche-a-partir-de-las-18-hs-comienzan-a-abrir-los-resturantes-ya-que-se-acostumbra-cenar-temprano {color: var(--oliva, #6d6553); text-align: center; font: var(--body, 400 18px/150% 'Poppins', sans-serif); position: relative; flex: 1; display: flex;align-items: center;justify-content: center}
+ .d-nde-hospedarse {color: var(--oliva, #6d6553); text-align: center; font: 500 40px/50px 'Cormorant', sans-serif; position: relative; display: flex;align-items: center;justify-content: center}
+ .recomendamos-hospedarse-en-los-barrios-xxx-xxx-y-alrededores-aqu-hay-algunas-opciones-de-hoteles-cercanos {color: var(--oliva, #6d6553); text-align: center; font: var(--body, 400 18px/150% 'Poppins', sans-serif); position: relative; display: flex;align-items: center;justify-content: center}
+ .hotel-v-1501 {color: #ffffff; text-align: center; font: 400 24px 'Poppins', sans-serif; position: absolute; left: 173.87px;top: 474px; width: 208.38px;}
+ .group-18 {flex-shrink: 0; width: 355.91px; height: 586.38px; position: static;}
+ .rectangle-344 {background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%,rgba(0, 0, 0, 1.00) 100%); border-radius: 187.85px; width: 334.89px; height: 553.18px; position: absolute; left: 507.96px;top: 17px;}
+ .hotel-opci-n-2 {color: #ffffff; text-align: center; font: 400 24px 'Poppins', sans-serif; position: absolute; left: 571.78px;top: 474px; width: 208.38px;}
+ .group-19 {flex-shrink: 0; width: 355.91px; height: 586.38px; position: static;}
+ .rectangle-345 {background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%,rgba(0, 0, 0, 1.00) 100%); border-radius: 187.85px; width: 334.89px; height: 553.18px; position: absolute; left: 905.88px;top: 17px;}
+ .hotel-opci-n-22 {color: #ffffff; text-align: center; font: 400 24px 'Poppins', sans-serif; position: absolute; left: 969.7px;top: 474px; width: 208.38px;}
+ .faq {background: #ffffff; padding: 90px 0px 90px 0px; display: flex; flex-direction: column; gap: 60px; align-items: center; justify-content: flex-start; align-self: stretch;flex-shrink: 0; position: relative;}
+ .preguntas-frecuentes2 {color: var(--oliva, #6d6553); text-align: center; font: 500 40px/50px 'Cormorant', sans-serif; text-transform: uppercase; position: relative; display: flex;align-items: center;justify-content: center}
+ .q-a {display: flex; flex-direction: column; gap: 0px; align-items: flex-start; justify-content: flex-start; flex-shrink: 0; width: 1140px; position: relative;}
+ .drawer {display: flex; flex-direction: column; gap: 20px; align-items: flex-start; justify-content: flex-start; align-self: stretch;flex-shrink: 0; position: relative;}
+ .line-5 {border-style: solid; border-color: var(--oliva, #6d6553); border-width: 1.5px 0 0 0; opacity: 0; align-self: stretch;flex-shrink: 0; height: 0px; position: relative;}
+ .frame-26080037 {display: flex; flex-direction: column; gap: 8px; align-items: flex-start; justify-content: flex-start; flex-shrink: 0; position: relative;}
+ .frame-17 {display: flex; flex-direction: row; gap: 14px; align-items: center; justify-content: flex-start; flex-shrink: 0; width: 1140px; position: relative;}
+ .c-mo-es-el-c-digo-de-vestimenta-del-evento {color: var(--oliva, #6d6553); text-align: left; font: 500 20px/160% 'Poppins', sans-serif; position: relative; flex: 1; display: flex;align-items: center;justify-content: flex-start}
+ .icons-ui-plus {flex-shrink: 0; position: relative; transform: translate(0px, 0px); overflow: visible;}
+ .frame-26080016 {padding: 0px 24px 0px 0px; display: flex; flex-direction: row; gap: 10px; align-items: flex-start; justify-content: flex-start; flex-shrink: 0; width: 1140px; position: relative;}
+ .lorem-ipsum-dolor-sit-amet-consectetur-lorem-viverra-mauris-ut-morbi-mauris-cursus-eget-non-purus-iaculis-varius-at-viverra-id-pellentesque-donec-augue-viverra-scelerisque-non-pharetra-commodo {color: var(--oliva, #6d6553); text-align: left; font: var(--bodysm, 400 16px/24px 'Poppins', sans-serif); position: relative; flex: 1;}
+ .line-4 {border-style: solid; border-color: #ccc5be; border-width: 1.5px 0 0 0; align-self: stretch;flex-shrink: 0; height: 0px; position: relative;}
+ .cu-l-es-el-horario-de-finalizaci-n {color: var(--oliva, #6d6553); text-align: left; font: 500 20px/160% 'Poppins', sans-serif; position: relative; flex: 1; display: flex;align-items: center;justify-content: flex-start}
+ .icons-ui-plus2 {flex-shrink: 0; position: relative; transform: translate(0px, 0px); overflow: visible;}
+ .si-voy-en-auto-hay-estacionamiento-cercano {color: var(--oliva, #6d6553); text-align: left; font: 500 20px/160% 'Poppins', sans-serif; position: relative; flex: 1; display: flex;align-items: center;justify-content: flex-start}
+ .icons-ui-plus3 {flex-shrink: 0; position: relative; transform: translate(0px, 0px); overflow: visible;}
+ .c-mo-es-el-tema-de-traslados-desde-y-hacia-los-lugares {color: var(--oliva, #6d6553); text-align: left; font: 500 20px/160% 'Poppins', sans-serif; position: relative; flex: 1; display: flex;align-items: center;justify-content: flex-start}
+ .icons-ui-plus4 {flex-shrink: 0; position: relative; transform: translate(0px, 0px); overflow: visible;}
+ .lorem-ipsum-dolor-sit-amet-consectetur-lorem-viverra-mauris-ut-morbi-mauris-cursus-eget-non-purus-iaculis-varius-at-viverra-id-pellentesque-donec-augue-viverra-scelerisque-non-pharetra-commodo-in-tempor-massa-tempus-lobortis-tellus-viverra-ut-facilisis-elementum-viverra-sit-diam-quis-commodo-imperdiet-massa-porttitor-dolor-nibh-maecenas-vestibulum-dui-etiam-sollicitudin-gravida-sed-ac-amet-congue-arcu-volutpat-imperdiet-tincidunt-ac-odio-viverra-eget-amet-aenean-vestibulum-nisi-consectetur-et-augue-lobortis-cursus-dictum-aliquam-turpis-aliquam-amet-commodo-feugiat-turpis-tortor-ac-nisi-ut-senectus-id-et-bibendum-ut-sit-id-in-ante-aliquet-sodales-metus-mattis-eu-enim-quisque-imperdiet-odio-turpis-augue-tincidunt-a-feugiat {color: var(--oliva, #6d6553); text-align: left; font: var(--bodysm, 400 16px/24px 'Poppins', sans-serif); position: relative; flex: 1;}
+ .en-qu-medio-de-transporte-conviene-moverse {color: var(--oliva, #6d6553); text-align: left; font: 500 20px/160% 'Poppins', sans-serif; position: relative; flex: 1; display: flex;align-items: center;justify-content: flex-start}
+ .icons-ui-plus5 {flex-shrink: 0; position: relative; transform: translate(0px, 0px); overflow: visible;}
+ .frame-26080038 {display: flex; flex-direction: column; gap: 8px; align-items: flex-start; justify-content: flex-start; flex-shrink: 0; position: relative;}
+ .qu-consideraciones-tengo-que-tener-a-la-hora-de-viajar-a-pasto {color: var(--oliva, #6d6553); text-align: left; font: 500 20px/160% 'Poppins', sans-serif; position: relative; flex: 1; display: flex;align-items: center;justify-content: flex-start}
+ .icons-ui-plus6 {flex-shrink: 0; position: relative; transform: translate(0px, 0px); overflow: visible;}
+ .el-clima-de-pasto-es-templado-por-la-tarde-puede-ser-ventoso-la-temperatura-suele-ser-de-20-c-con-una-humedad-del-202 {color: var(--oliva, #6d6553); text-align: left; font: var(--bodysm, 400 16px/24px 'Poppins', sans-serif); position: relative; flex: 1;}
+ .frame-26080036 {display: flex; flex-direction: column; gap: 8px; align-items: flex-start; justify-content: flex-start; flex-shrink: 0; position: relative;}
+ .cu-l-es-la-manera-m-s-r-pida-de-llegar-a-pasto {color: var(--oliva, #6d6553); text-align: left; font: 500 20px/160% 'Poppins', sans-serif; position: relative; flex: 1; display: flex;align-items: center;justify-content: flex-start}
+ .icons-ui-plus7 {flex-shrink: 0; position: relative; transform: translate(0px, 0px); overflow: visible;}
+ .para-llegar-a-pasto-es-necesario-tomarse-un-vuelo-interno-desde-otro-lugar-por-lo-que-recomendamos-volar-hacia-bogot-y-desde-all-partir-rumbo-a-pasto-tener-en-cuenta-que-hay-alrededor-de-5-vuelos-diarios-que-pueden-verse-afectadas-por-condiciones-clim-ticas {color: var(--oliva, #6d6553); text-align: left; font: var(--bodysm, 400 16px/24px 'Poppins', sans-serif); position: relative; flex: 1;}
+ .qu-otras-regiones-puedo-conocer-de-colombia {color: var(--oliva, #6d6553); text-align: left; font: 500 20px/160% 'Poppins', sans-serif; position: relative; flex: 1; display: flex;align-items: center;justify-content: flex-start}
+ .icons-ui-plus8 {flex-shrink: 0; position: relative; transform: translate(0px, 0px); overflow: visible;}
+ .section3 {background: var(--rosa, #f9f1ef); padding: 60px 160px 60px 160px; display: flex; flex-direction: column; gap: 10px; align-items: center; justify-content: center; flex-shrink: 0; width: 1440px; position: relative;}
+ .div-modal-body8 {padding: 16px 42px 16px 42px; display: flex; flex-direction: column; gap: 18px; align-items: center; justify-content: flex-start; align-self: stretch;flex-shrink: 0; position: relative;}
+ .contacto {color: var(--oliva, #6d6553); text-align: center; font: 500 40px/50px 'Cormorant', sans-serif; position: relative; display: flex;align-items: center;justify-content: center}
+ .si-ten-s-alguna-inquietud-no-dudes-en-contactarte-con-nuestra-wedding-planner {color: var(--oliva, #6d6553); text-align: center; font: var(--body, 400 18px/150% 'Poppins', sans-serif); position: relative; align-self: stretch; display: flex;align-items: center;justify-content: center}
+ .mandar-whatsapp {color: var(--oliva, #6d6553); text-align: center; font: var(--body, 400 18px/150% 'Poppins', sans-serif); position: relative; display: flex;align-items: center;justify-content: center}
+ .banner {background: #ffffff; padding: 0px 240px 0px 240px; display: flex; flex-direction: column; gap: 10px; align-items: flex-start; justify-content: flex-start; flex-shrink: 0; position: relative;}
+ .frame-26080031 {padding: 60px 0px 60px 0px; display: flex; flex-direction: column; gap: 20px; align-items: center; justify-content: center; flex-shrink: 0; width: 960px; position: relative;}
+ .a-r {color: var(--oliva, #6d6553); text-align: center; font: 500 40px/100% 'Playfair Display', sans-serif; position: relative; align-self: stretch; display: flex;align-items: center;justify-content: center}
+ .dise-ado-por-dinos-design-desarrollado-por-kiaruh {color: var(--oliva, #6d6553); text-align: center; font: 400 16px/24px 'Libre Baskerville', sans-serif; position: relative; display: flex;align-items: center;justify-content: center}
