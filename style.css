@@ -1056,10 +1056,10 @@
     gap: 0px;
     align-items: center;
     justify-content: flex-start;
-    width: 390px;
+    width: 350px;
     position: relative;
     overflow: hidden;
-    margin: 0% 5% 0% 5%;
+    margin: auto;
     padding: auto;
   }
   .contentM {
@@ -1162,6 +1162,7 @@
     justify-content: flex-start;
     flex: 1;
     position: relative;
+    max-width: 350px;
   }
   .div-modal-bodyM {
     padding: 0px 40px 0px 40px;
@@ -1173,6 +1174,7 @@
     align-self: stretch;
     flex-shrink: 0;
     position: relative;
+    margin: 0% 5% 0% 5%;
   }
   .angela-ricardoM {
     color: var(--oliva, #6d6553);
