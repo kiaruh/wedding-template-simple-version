@@ -1056,11 +1056,11 @@
     gap: 0px;
     align-items: center;
     justify-content: flex-start;
-    width: auto;
+    width: 390px;
     position: relative;
     overflow: hidden;
-
-    max-width: 100vh;
+    margin: 0% 5% 0% 5%;
+    padding: auto;
   }
   .contentM {
     display: flex;
@@ -1238,12 +1238,12 @@
   }
   .group-20M {
     flex-shrink: 0;
-    width: 388.02px;
+    width: 488.02px;
     height: 421px;
     position: static;
   }
-  .flores-M {
-    width: 319.6px;
+  .flores-1M {
+    width: 419.6px;
     height: 291.14px;
     position: absolute;
     left: 390.6px;
@@ -1283,7 +1283,7 @@
     align-items: center;
     justify-content: center;
   }
-  .sectionM {
+  .sectioM {
     background: var(
       --olivaclaro,
       linear-gradient(
@@ -1293,7 +1293,7 @@
       ),
       linear-gradient(to left, #ffffff, #ffffff)
     );
-    padding: 50px 220px 50px 220px;
+    padding: 70px 521px 70px 521px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -1642,7 +1642,7 @@
     align-items: center;
     justify-content: center;
   }
-  .section2M {
+  .sectionM {
     background: #ffffff;
     padding: 100px 20px 100px 20px;
     display: flex;
@@ -2019,7 +2019,7 @@
     left: 110.65px;
     top: 16.85px;
   }
-  .rectangle-40M {
+  .rectangle-404M {
     border-radius: 207.51px;
     border-width: 3.91px;
     border-style: solid;
