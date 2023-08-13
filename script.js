@@ -1,6 +1,6 @@
 // Function to check if the viewport is a mobile device
 function isMobileViewport() {
-  return window.innerWidth <= 768; // You can adjust this value as needed
+  return window.innerWidth <= 780; // You can adjust this value as needed
 }
 
 // Function to toggle element visibility
