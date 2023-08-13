@@ -1,129 +1,2247 @@
-.wedding, .wedding * { box-sizing: border-box; }.wedding {background: #ffffff; border-radius: 30px; display: flex; flex-direction: column; gap: 10px; align-items: flex-start; justify-content: flex-start; height: 1024px; position: relative;padding: auto; margin: auto; width: 1440px;} 
- .content {display: flex; flex-direction: column; gap: 0px; align-items: flex-start; justify-content: flex-start; flex-shrink: 0; position: relative;}
- .hero {background: #ffffff; flex-shrink: 0; width: 1440px; height: 810px; position: relative; overflow: hidden;}
- .div-modal-body {padding: 16px 42px 16px 42px; display: flex; flex-direction: column; gap: 18px; align-items: center; justify-content: flex-start; position: absolute; left: calc(50% - 407px);top: 261.5px;}
- .angela-ricardo {color: var(--oliva, #6d6553); text-align: center; font: 500 70px/50px 'Cormorant', sans-serif; position: relative; display: flex;align-items: center;justify-content: center}
- .diciembre-9-2023-pasto-nari-o-colombia {color: var(--oliva, #6d6553); text-align: center; font: 400 20px/50px 'Libre Baskerville', sans-serif; position: relative; display: flex;align-items: center;justify-content: center}
- .div-modal-body2 {padding: 40px 42px 40px 42px; display: flex; flex-direction: row; gap: 18px; align-items: center; justify-content: center; flex-shrink: 0; width: 731px; position: relative;}
- .s-bado-9-de-diciembre-21-00-hs {color: var(--oliva, #6d6553); text-align: center; font: 400 20px/160% 'Libre Baskerville', sans-serif; position: relative; flex: 1; display: flex;align-items: center;justify-content: center}
- .line-1 {border-style: solid; border-color: var(--oliva, #6d6553); border-width: 1px 0 0 0; flex-shrink: 0; width: 116px; height: 0px; position: relative; transform-origin: 0 0; transform: rotate(90deg) scale(1, 1);}
- .iglesia-sal-n-pasto-nari-o-colombia {color: var(--oliva, #6d6553); text-align: center; font: 400 20px/160% 'Libre Baskerville', sans-serif; position: relative; flex: 1; display: flex;align-items: center;justify-content: center}
- .frame-26080039 {display: flex; flex-direction: column; gap: 0px; align-items: center; justify-content: flex-start; position: absolute; left: 240px;top: 665px;}
- .frame-26080030 {padding: 30px 0px 30px 0px; display: flex; flex-direction: row; gap: 40px; align-items: center; justify-content: center; flex-shrink: 0; width: 960px; position: relative;}
- .link {border-style: solid; border-color: var(--oliva, #6d6553); border-width: 0px 0px 2px 0px; display: flex; flex-direction: row; gap: 10px; align-items: flex-start; justify-content: flex-start; flex-shrink: 0; position: relative;}
- .sobre-el-evento {color: var(--oliva, #6d6553); text-align: center; font: var(--bodysm, 400 16px/24px 'Poppins', sans-serif); position: relative; display: flex;align-items: center;justify-content: center}
- .link2 {display: flex; flex-direction: row; gap: 10px; align-items: flex-start; justify-content: flex-start; flex-shrink: 0; position: relative;}
- .tips-de-viaje {color: var(--oliva, #6d6553); text-align: center; font: var(--bodysm, 400 16px/24px 'Poppins', sans-serif); position: relative; display: flex;align-items: center;justify-content: center}
- .alojamiento {color: var(--oliva, #6d6553); text-align: center; font: var(--bodysm, 400 16px/24px 'Poppins', sans-serif); position: relative; display: flex;align-items: center;justify-content: center}
- .peinado-y-maquillaje {color: var(--oliva, #6d6553); text-align: center; font: var(--bodysm, 400 16px/24px 'Poppins', sans-serif); position: relative; display: flex;align-items: center;justify-content: center}
- .preguntas-frecuentes {color: var(--oliva, #6d6553); text-align: center; font: var(--bodysm, 400 16px/24px 'Poppins', sans-serif); position: relative; display: flex;align-items: center;justify-content: center}
- .flores-1 {width: 601px; height: 417px; position: absolute; left: 2px;top: -169px;}
- .flores-1-4-x-1 {width: 374px; height: 531px; position: absolute; left: -96px;top: 434px; transform-origin: 0 0; transform: rotate(0deg) scale(1, -1);}
- .section {background: var(--olivaclaro, linear-gradient(to left, rgba(109, 101, 83, 0.10), rgba(109, 101, 83, 0.10)), linear-gradient(to left, #ffffff, #ffffff)); padding: 70px 521px 70px 521px; display: flex; flex-direction: column; gap: 10px; align-items: flex-start; justify-content: flex-start; flex-shrink: 0; position: relative;}
- .div-reloj {flex-shrink: 0; width: 399px; height: 76px; position: relative;}
- .div-dias {border-style: solid; border-color: #999999; border-width: 0px 1px 0px 0px; height: 76px; position: absolute; right: 299.25px; left: 0px;top: 0px;}
- .d-as {color: var(--oliva, #6d6553); text-align: center; font: 500 22px/33px 'Cormorant', sans-serif; position: absolute; left: 30.16px;top: 43px; display: flex;align-items: center;justify-content: center}
- ._172 {color: var(--oliva, #6d6553); text-align: center; font: 500 40px/100% 'Playfair Display', sans-serif; position: absolute; left: 23.16px;top: 0px; display: flex;align-items: center;justify-content: center}
- .div-horas {border-style: solid; border-color: #999999; border-width: 0px 1px 0px 0px; height: 76px; position: absolute; right: 199.5px; left: 99.75px;top: 0px;}
- .hs {color: var(--oliva, #6d6553); text-align: center; font: 500 22px/33px 'Cormorant', sans-serif; position: absolute; left: 37.33px;top: 43px; display: flex;align-items: center;justify-content: center}
- ._12 {color: var(--oliva, #6d6553); text-align: center; font: 500 40px/100% 'Playfair Display', sans-serif; position: absolute; left: 32.25px;top: 0px; display: flex;align-items: center;justify-content: center}
- .div-minutos {border-style: solid; border-color: #999999; border-width: 0px 1px 0px 0px; height: 76px; position: absolute; right: 99.75px; left: 199.5px;top: 0px;}
- .min {color: var(--oliva, #6d6553); text-align: center; font: 500 22px/33px 'Cormorant', sans-serif; position: absolute; left: 30.89px;top: 43px; display: flex;align-items: center;justify-content: center}
- ._9 {color: var(--oliva, #6d6553); text-align: center; font: 500 40px/100% 'Playfair Display', sans-serif; position: absolute; left: 38.5px;top: 0px; display: flex;align-items: center;justify-content: center}
- ._18 {color: var(--oliva, #6d6553); text-align: center; font: 500 40px/100% 'Playfair Display', sans-serif; position: absolute; left: 330px;top: 0px; display: flex;align-items: center;justify-content: center}
- .seg {color: var(--oliva, #6d6553); text-align: center; font: 500 22px/33px 'Cormorant', sans-serif; position: absolute; left: 333.36px;top: 43px; display: flex;align-items: center;justify-content: center}
- .hero2 {background: #ffffff; padding: 100px 293px 100px 293px; display: flex; flex-direction: column; gap: 77px; align-items: center; justify-content: flex-start; align-self: stretch;flex-shrink: 0; position: relative; overflow: hidden;}
- .div-modal-body3 {padding: 0px 42px 0px 42px; display: flex; flex-direction: column; gap: 18px; align-items: center; justify-content: flex-start; flex-shrink: 0; position: relative;}
- .ceremonia {color: var(--oliva, #6d6553); text-align: center; font: 500 40px/50px 'Cormorant', sans-serif; position: relative; display: flex;align-items: center;justify-content: center}
- .s-bado-9-de-diciembre-18-00-hs {color: var(--oliva, #6d6553); text-align: center; font: 400 20px/160% 'Libre Baskerville', sans-serif; position: relative; flex: 1; display: flex;align-items: center;justify-content: center}
- .iglesia-pasto-nari-o-colombia {color: var(--oliva, #6d6553); text-align: center; font: 400 20px/160% 'Libre Baskerville', sans-serif; position: relative; flex: 1; display: flex;align-items: center;justify-content: center}
- .botones {padding: 30px 10px 0px 10px; display: flex; flex-direction: row; gap: 30px; align-items: flex-start; justify-content: flex-start; flex-shrink: 0; position: relative;}
- .frame-26080033 {border-radius: 160px; border-style: solid; border-color: var(--oliva, #6d6553); border-width: 1px; padding: 12px 20px 12px 20px; display: flex; flex-direction: row; gap: 10px; align-items: center; justify-content: center; flex-shrink: 0; position: relative;}
- .ver-en-mapa {color: var(--oliva, #6d6553); text-align: center; font: var(--body, 400 18px/150% 'Poppins', sans-serif); position: relative; display: flex;align-items: center;justify-content: center}
- .frame-26080034 {border-radius: 160px; border-style: solid; border-color: var(--oliva, #6d6553); border-width: 1px; padding: 12px 20px 12px 20px; display: flex; flex-direction: row; gap: 10px; align-items: center; justify-content: center; flex-shrink: 0; position: relative;}
- .c-mo-llegar {color: var(--oliva, #6d6553); text-align: center; font: var(--body, 400 18px/150% 'Poppins', sans-serif); position: relative; display: flex;align-items: center;justify-content: center}
- .fiesta {color: var(--oliva, #6d6553); text-align: center; font: 500 40px/50px 'Cormorant', sans-serif; position: relative; display: flex;align-items: center;justify-content: center}
- .hotel-v-1501-calle-20-33-60 {color: var(--oliva, #6d6553); text-align: center; font: 400 20px/160% 'Libre Baskerville', sans-serif; position: relative; flex: 1; display: flex;align-items: center;justify-content: center}
- .section2 {background: var(--dorado, #bc865a); padding: 100px 521px 100px 521px; display: flex; flex-direction: column; gap: 10px; align-items: center; justify-content: center; flex-shrink: 0; width: 1440px; position: relative;}
- .div-modal-body4 {padding: 16px 42px 16px 42px; display: flex; flex-direction: column; gap: 18px; align-items: center; justify-content: flex-start; flex-shrink: 0; position: relative;}
- .rsvp {color: var(--crema, #fff8f2); text-align: center; font: 500 40px/50px 'Cormorant', sans-serif; position: relative; display: flex;align-items: center;justify-content: center}
- .agradecemos-si-pudieras-confirmar-tu-asistencia-hasta-30-d-as-antes-del-evento {color: var(--crema, #fff8f2); text-align: center; font: var(--body, 400 18px/150% 'Poppins', sans-serif); position: relative; display: flex;align-items: center;justify-content: center}
- .frame-26080035 {padding: 30px 10px 0px 10px; display: flex; flex-direction: column; gap: 10px; align-items: flex-start; justify-content: flex-start; flex-shrink: 0; position: relative;}
- .frame-260800342 {border-radius: 160px; border-style: solid; border-color: var(--crema, #fff8f2); border-width: 1px; padding: 12px 20px 12px 20px; display: flex; flex-direction: row; gap: 10px; align-items: center; justify-content: center; flex-shrink: 0; position: relative;}
- .confirmar-asistencia {color: var(--crema, #fff8f2); text-align: center; font: var(--body, 400 18px/150% 'Poppins', sans-serif); position: relative; display: flex;align-items: center;justify-content: center}
- .hero3 {background: #ffffff; padding: 100px 293px 100px 293px; display: flex; flex-direction: column; gap: 40px; align-items: center; justify-content: flex-start; flex-shrink: 0; width: 1440px; position: relative; overflow: hidden;}
- .div-modal-body5 {padding: 16px 0px 16px 0px; display: flex; flex-direction: column; gap: 18px; align-items: center; justify-content: flex-start; align-self: stretch;flex-shrink: 0; position: relative;}
- .tips-para-viajeros {color: var(--oliva, #6d6553); text-align: center; font: 500 40px/50px 'Cormorant', sans-serif; text-transform: uppercase; position: relative; display: flex;align-items: center;justify-content: center}
- .sabemos-que-vienen-desde-lejos-y-queremos-ayudarlos-con-algunas-recomendaciones {color: var(--oliva, #6d6553); text-align: center; font: 400 18px/24px 'Poppins', sans-serif; position: relative; display: flex;align-items: center;justify-content: center}
- .frame-45 {padding: 0px 100px 0px 100px; display: flex; flex-direction: row; gap: 42px; align-items: flex-start; justify-content: flex-start; flex-shrink: 0; position: relative;}
- .group-5 {flex-shrink: 0; width: 355.91px; height: 586.38px; position: static;}
- .rectangle-39 {border-radius: 312.89px; width: 334.61px; height: 552.67px; position: absolute; left: 110.65px;top: 16.85px;}
- .rectangle-40 {border-radius: 207.51px; border-width: 3.91px; border-style: solid; border-image: linear-gradient(180deg, rgba(215, 215, 215, 1.00) 0%,rgba(188, 134, 90, 0.00) 94.79166865348816%); border-image-slice: 1; width: 355.91px; height: 586.38px; position: absolute; left: 100px;top: 0px;}
- .rectangle-34 {background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%,rgba(0, 0, 0, 1.00) 100%); border-radius: 187.85px; width: 334.89px; height: 553.18px; position: absolute; left: 110.05px;top: 17px;}
- .d-nde-pasear {color: #ffffff; text-align: center; font: 400 24px 'Poppins', sans-serif; position: absolute; left: 173.87px;top: 474px; width: 208.38px;}
- .group-6 {flex-shrink: 0; width: 355.91px; height: 586.38px; position: static;}
- .rectangle-392 {border-radius: 312.89px; width: 334.61px; height: 552.67px; position: absolute; left: 508.57px;top: 16.85px;}
- .rectangle-402 {border-radius: 207.51px; border-width: 3.91px; border-style: solid; border-image: linear-gradient(180deg, rgba(215, 215, 215, 1.00) 0%,rgba(188, 134, 90, 0.00) 94.79166865348816%); border-image-slice: 1; width: 355.91px; height: 586.38px; position: absolute; left: 497.91px;top: 0px;}
- .rectangle-342 {background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%,rgba(0, 0, 0, 1.00) 100%); border-radius: 187.85px; width: 334.89px; height: 553.18px; position: absolute; left: 508.05px;top: 17px;}
- .d-nde-c-mer {color: #ffffff; text-align: center; font: 400 24px 'Poppins', sans-serif; position: absolute; left: 571.87px;top: 474px; width: 208.38px;}
- .group-17 {flex-shrink: 0; width: 355.91px; height: 586.38px; position: static;}
- .rectangle-393 {border-radius: 312.89px; width: 334.61px; height: 552.67px; position: absolute; left: 906.48px;top: 16.85px;}
- .rectangle-403 {border-radius: 207.51px; border-width: 3.91px; border-style: solid; border-image: linear-gradient(180deg, rgba(215, 215, 215, 1.00) 0%,rgba(188, 134, 90, 0.00) 94.79166865348816%); border-image-slice: 1; width: 355.91px; height: 586.38px; position: absolute; left: 895.83px;top: 0px;}
- .rectangle-343 {background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%,rgba(0, 0, 0, 1.00) 100%); border-radius: 187.85px; width: 334.89px; height: 553.18px; position: absolute; left: 906.05px;top: 17px;}
- .d-nde-alistarse {color: #ffffff; text-align: center; font: 400 24px 'Poppins', sans-serif; position: absolute; left: 969.87px;top: 474px; width: 208.38px;}
- .hero4 {background: #ffffff; padding: 40px 160px 40px 160px; display: flex; flex-direction: column; gap: 77px; align-items: center; justify-content: flex-start; align-self: stretch;flex-shrink: 0; position: relative; overflow: hidden;}
- .div-modal-body6 {display: flex; flex-direction: column; gap: 18px; align-items: center; justify-content: flex-start; align-self: stretch;flex-shrink: 0; position: relative;}
- .a-tener-en-cuenta {color: var(--oliva, #6d6553); text-align: center; font: 500 40px/50px 'Cormorant', sans-serif; text-transform: uppercase; position: relative; display: flex;align-items: center;justify-content: center}
- .clima-horarios-barrios {color: var(--oliva, #6d6553); text-align: center; font: 400 20px/50px 'Libre Baskerville', sans-serif; position: relative; display: flex;align-items: center;justify-content: center}
- .div-modal-body7 {padding: 20px 0px 20px 0px; display: flex; flex-direction: row; gap: 30px; align-items: center; justify-content: center; align-self: stretch;flex-shrink: 0; position: relative;}
- .el-clima-de-pasto-es-templado-por-la-tarde-puede-ser-ventoso-la-temperatura-suele-ser-de-20-c-con-una-humedad-del-20 {color: var(--oliva, #6d6553); text-align: center; font: var(--body, 400 18px/150% 'Poppins', sans-serif); position: relative; flex: 1; display: flex;align-items: center;justify-content: center}
- .las-tiendas-suelen-cerrar-por-la-tarde-y-reabrir-a-la-noche-a-partir-de-las-18-hs-comienzan-a-abrir-los-resturantes-ya-que-se-acostumbra-cenar-temprano {color: var(--oliva, #6d6553); text-align: center; font: var(--body, 400 18px/150% 'Poppins', sans-serif); position: relative; flex: 1; display: flex;align-items: center;justify-content: center}
- .d-nde-hospedarse {color: var(--oliva, #6d6553); text-align: center; font: 500 40px/50px 'Cormorant', sans-serif; position: relative; display: flex;align-items: center;justify-content: center}
- .recomendamos-hospedarse-en-los-barrios-xxx-xxx-y-alrededores-aqu-hay-algunas-opciones-de-hoteles-cercanos {color: var(--oliva, #6d6553); text-align: center; font: var(--body, 400 18px/150% 'Poppins', sans-serif); position: relative; display: flex;align-items: center;justify-content: center}
- .hotel-v-1501 {color: #ffffff; text-align: center; font: 400 24px 'Poppins', sans-serif; position: absolute; left: 173.87px;top: 474px; width: 208.38px;}
- .group-18 {flex-shrink: 0; width: 355.91px; height: 586.38px; position: static;}
- .rectangle-344 {background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%,rgba(0, 0, 0, 1.00) 100%); border-radius: 187.85px; width: 334.89px; height: 553.18px; position: absolute; left: 507.96px;top: 17px;}
- .hotel-opci-n-2 {color: #ffffff; text-align: center; font: 400 24px 'Poppins', sans-serif; position: absolute; left: 571.78px;top: 474px; width: 208.38px;}
- .group-19 {flex-shrink: 0; width: 355.91px; height: 586.38px; position: static;}
- .rectangle-345 {background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%,rgba(0, 0, 0, 1.00) 100%); border-radius: 187.85px; width: 334.89px; height: 553.18px; position: absolute; left: 905.88px;top: 17px;}
- .hotel-opci-n-22 {color: #ffffff; text-align: center; font: 400 24px 'Poppins', sans-serif; position: absolute; left: 969.7px;top: 474px; width: 208.38px;}
- .faq {background: #ffffff; padding: 90px 0px 90px 0px; display: flex; flex-direction: column; gap: 60px; align-items: center; justify-content: flex-start; align-self: stretch;flex-shrink: 0; position: relative;}
- .preguntas-frecuentes2 {color: var(--oliva, #6d6553); text-align: center; font: 500 40px/50px 'Cormorant', sans-serif; text-transform: uppercase; position: relative; display: flex;align-items: center;justify-content: center}
- .q-a {display: flex; flex-direction: column; gap: 0px; align-items: flex-start; justify-content: flex-start; flex-shrink: 0; width: 1140px; position: relative;}
- .drawer {display: flex; flex-direction: column; gap: 20px; align-items: flex-start; justify-content: flex-start; align-self: stretch;flex-shrink: 0; position: relative;}
- .line-5 {border-style: solid; border-color: var(--oliva, #6d6553); border-width: 1.5px 0 0 0; opacity: 0; align-self: stretch;flex-shrink: 0; height: 0px; position: relative;}
- .frame-26080037 {display: flex; flex-direction: column; gap: 8px; align-items: flex-start; justify-content: flex-start; flex-shrink: 0; position: relative;}
- .frame-17 {display: flex; flex-direction: row; gap: 14px; align-items: center; justify-content: flex-start; flex-shrink: 0; width: 1140px; position: relative;}
- .c-mo-es-el-c-digo-de-vestimenta-del-evento {color: var(--oliva, #6d6553); text-align: left; font: 500 20px/160% 'Poppins', sans-serif; position: relative; flex: 1; display: flex;align-items: center;justify-content: flex-start}
- .icons-ui-plus {flex-shrink: 0; position: relative; transform: translate(0px, 0px); overflow: visible;}
- .frame-26080016 {padding: 0px 24px 0px 0px; display: flex; flex-direction: row; gap: 10px; align-items: flex-start; justify-content: flex-start; flex-shrink: 0; width: 1140px; position: relative;}
- .lorem-ipsum-dolor-sit-amet-consectetur-lorem-viverra-mauris-ut-morbi-mauris-cursus-eget-non-purus-iaculis-varius-at-viverra-id-pellentesque-donec-augue-viverra-scelerisque-non-pharetra-commodo {color: var(--oliva, #6d6553); text-align: left; font: var(--bodysm, 400 16px/24px 'Poppins', sans-serif); position: relative; flex: 1;}
- .line-4 {border-style: solid; border-color: #ccc5be; border-width: 1.5px 0 0 0; align-self: stretch;flex-shrink: 0; height: 0px; position: relative;}
- .cu-l-es-el-horario-de-finalizaci-n {color: var(--oliva, #6d6553); text-align: left; font: 500 20px/160% 'Poppins', sans-serif; position: relative; flex: 1; display: flex;align-items: center;justify-content: flex-start}
- .icons-ui-plus2 {flex-shrink: 0; position: relative; transform: translate(0px, 0px); overflow: visible;}
- .si-voy-en-auto-hay-estacionamiento-cercano {color: var(--oliva, #6d6553); text-align: left; font: 500 20px/160% 'Poppins', sans-serif; position: relative; flex: 1; display: flex;align-items: center;justify-content: flex-start}
- .icons-ui-plus3 {flex-shrink: 0; position: relative; transform: translate(0px, 0px); overflow: visible;}
- .c-mo-es-el-tema-de-traslados-desde-y-hacia-los-lugares {color: var(--oliva, #6d6553); text-align: left; font: 500 20px/160% 'Poppins', sans-serif; position: relative; flex: 1; display: flex;align-items: center;justify-content: flex-start}
- .icons-ui-plus4 {flex-shrink: 0; position: relative; transform: translate(0px, 0px); overflow: visible;}
- .lorem-ipsum-dolor-sit-amet-consectetur-lorem-viverra-mauris-ut-morbi-mauris-cursus-eget-non-purus-iaculis-varius-at-viverra-id-pellentesque-donec-augue-viverra-scelerisque-non-pharetra-commodo-in-tempor-massa-tempus-lobortis-tellus-viverra-ut-facilisis-elementum-viverra-sit-diam-quis-commodo-imperdiet-massa-porttitor-dolor-nibh-maecenas-vestibulum-dui-etiam-sollicitudin-gravida-sed-ac-amet-congue-arcu-volutpat-imperdiet-tincidunt-ac-odio-viverra-eget-amet-aenean-vestibulum-nisi-consectetur-et-augue-lobortis-cursus-dictum-aliquam-turpis-aliquam-amet-commodo-feugiat-turpis-tortor-ac-nisi-ut-senectus-id-et-bibendum-ut-sit-id-in-ante-aliquet-sodales-metus-mattis-eu-enim-quisque-imperdiet-odio-turpis-augue-tincidunt-a-feugiat {color: var(--oliva, #6d6553); text-align: left; font: var(--bodysm, 400 16px/24px 'Poppins', sans-serif); position: relative; flex: 1;}
- .en-qu-medio-de-transporte-conviene-moverse {color: var(--oliva, #6d6553); text-align: left; font: 500 20px/160% 'Poppins', sans-serif; position: relative; flex: 1; display: flex;align-items: center;justify-content: flex-start}
- .icons-ui-plus5 {flex-shrink: 0; position: relative; transform: translate(0px, 0px); overflow: visible;}
- .frame-26080038 {display: flex; flex-direction: column; gap: 8px; align-items: flex-start; justify-content: flex-start; flex-shrink: 0; position: relative;}
- .qu-consideraciones-tengo-que-tener-a-la-hora-de-viajar-a-pasto {color: var(--oliva, #6d6553); text-align: left; font: 500 20px/160% 'Poppins', sans-serif; position: relative; flex: 1; display: flex;align-items: center;justify-content: flex-start}
- .icons-ui-plus6 {flex-shrink: 0; position: relative; transform: translate(0px, 0px); overflow: visible;}
- .el-clima-de-pasto-es-templado-por-la-tarde-puede-ser-ventoso-la-temperatura-suele-ser-de-20-c-con-una-humedad-del-202 {color: var(--oliva, #6d6553); text-align: left; font: var(--bodysm, 400 16px/24px 'Poppins', sans-serif); position: relative; flex: 1;}
- .frame-26080036 {display: flex; flex-direction: column; gap: 8px; align-items: flex-start; justify-content: flex-start; flex-shrink: 0; position: relative;}
- .cu-l-es-la-manera-m-s-r-pida-de-llegar-a-pasto {color: var(--oliva, #6d6553); text-align: left; font: 500 20px/160% 'Poppins', sans-serif; position: relative; flex: 1; display: flex;align-items: center;justify-content: flex-start}
- .icons-ui-plus7 {flex-shrink: 0; position: relative; transform: translate(0px, 0px); overflow: visible;}
- .para-llegar-a-pasto-es-necesario-tomarse-un-vuelo-interno-desde-otro-lugar-por-lo-que-recomendamos-volar-hacia-bogot-y-desde-all-partir-rumbo-a-pasto-tener-en-cuenta-que-hay-alrededor-de-5-vuelos-diarios-que-pueden-verse-afectadas-por-condiciones-clim-ticas {color: var(--oliva, #6d6553); text-align: left; font: var(--bodysm, 400 16px/24px 'Poppins', sans-serif); position: relative; flex: 1;}
- .qu-otras-regiones-puedo-conocer-de-colombia {color: var(--oliva, #6d6553); text-align: left; font: 500 20px/160% 'Poppins', sans-serif; position: relative; flex: 1; display: flex;align-items: center;justify-content: flex-start}
- .icons-ui-plus8 {flex-shrink: 0; position: relative; transform: translate(0px, 0px); overflow: visible;}
- .section3 {background: var(--rosa, #f9f1ef); padding: 60px 160px 60px 160px; display: flex; flex-direction: column; gap: 10px; align-items: center; justify-content: center; flex-shrink: 0; width: 1440px; position: relative;}
- .div-modal-body8 {padding: 16px 42px 16px 42px; display: flex; flex-direction: column; gap: 18px; align-items: center; justify-content: flex-start; align-self: stretch;flex-shrink: 0; position: relative;}
- .contacto {color: var(--oliva, #6d6553); text-align: center; font: 500 40px/50px 'Cormorant', sans-serif; position: relative; display: flex;align-items: center;justify-content: center}
- .si-ten-s-alguna-inquietud-no-dudes-en-contactarte-con-nuestra-wedding-planner {color: var(--oliva, #6d6553); text-align: center; font: var(--body, 400 18px/150% 'Poppins', sans-serif); position: relative; align-self: stretch; display: flex;align-items: center;justify-content: center}
- .mandar-whatsapp {color: var(--oliva, #6d6553); text-align: center; font: var(--body, 400 18px/150% 'Poppins', sans-serif); position: relative; display: flex;align-items: center;justify-content: center}
- .banner {background: #ffffff; padding: 0px 240px 0px 240px; display: flex; flex-direction: column; gap: 10px; align-items: flex-start; justify-content: flex-start; flex-shrink: 0; position: relative;}
- .frame-26080031 {padding: 60px 0px 60px 0px; display: flex; flex-direction: column; gap: 20px; align-items: center; justify-content: center; flex-shrink: 0; width: 960px; position: relative;}
- .a-r {color: var(--oliva, #6d6553); text-align: center; font: 500 40px/100% 'Playfair Display', sans-serif; position: relative; align-self: stretch; display: flex;align-items: center;justify-content: center}
- .dise-ado-por-dinos-design-desarrollado-por-kiaruh {color: var(--oliva, #6d6553); text-align: center; font: 400 16px/24px 'Libre Baskerville', sans-serif; position: relative; display: flex;align-items: center;justify-content: center}
+.content,
+.content * {
+  box-sizing: border-box;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  margin: 0% 10% 0% 10%;
+}
+.hero {
+  background: #ffffff;
+  flex-shrink: 0;
+  width: 1440px;
+  height: 810px;
+  position: relative;
+  overflow: hidden;
+}
+.div-modal-body {
+  padding: 16px 42px 16px 42px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: calc(50% - 407px);
+  top: 261.5px;
+}
+.angela-ricardo {
+  color: var(--oliva, #6d6553);
+  text-align: center;
+  font: 500 70px/50px "Cormorant", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.diciembre-9-2023-pasto-nari-o-colombia {
+  color: var(--oliva, #6d6553);
+  text-align: center;
+  font: 400 20px/50px "Libre Baskerville", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div-modal-body2 {
+  padding: 40px 42px 40px 42px;
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 731px;
+  position: relative;
+}
+.s-bado-9-de-diciembre-17-00-hs {
+  color: var(--oliva, #6d6553);
+  text-align: center;
+  font: 400 20px/160% "Libre Baskerville", sans-serif;
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.line-1 {
+  border-style: solid;
+  border-color: var(--oliva, #6d6553);
+  border-width: 1px 0 0 0;
+  flex-shrink: 0;
+  width: 116px;
+  height: 0px;
+  position: relative;
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+}
+.iglesia-sal-n-pasto-nari-o-colombia {
+  color: var(--oliva, #6d6553);
+  text-align: center;
+  font: 400 20px/160% "Libre Baskerville", sans-serif;
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame-26080039 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 240px;
+  top: 665px;
+}
+.frame-26080030 {
+  padding: 30px 0px 30px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 960px;
+  position: relative;
+}
+.link {
+  border-style: solid;
+  border-color: var(--oliva, #6d6553);
+  border-width: 0px 0px 2px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.sobre-el-evento {
+  color: var(--oliva, #6d6553);
+  text-align: center;
+  font: var(--bodysm, 400 16px/24px "Poppins", sans-serif);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.link2 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.tips-de-viaje {
+  color: var(--oliva, #6d6553);
+  text-align: center;
+  font: var(--bodysm, 400 16px/24px "Poppins", sans-serif);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.alojamiento {
+  color: var(--oliva, #6d6553);
+  text-align: center;
+  font: var(--bodysm, 400 16px/24px "Poppins", sans-serif);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.peinado-y-maquillaje {
+  color: var(--oliva, #6d6553);
+  text-align: center;
+  font: var(--bodysm, 400 16px/24px "Poppins", sans-serif);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.preguntas-frecuentes {
+  color: var(--oliva, #6d6553);
+  text-align: center;
+  font: var(--bodysm, 400 16px/24px "Poppins", sans-serif);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flores-1 {
+  width: 601px;
+  height: 417px;
+  position: absolute;
+  left: 2px;
+  top: -169px;
+}
+.flores-1-4-x-1 {
+  width: 374px;
+  height: 531px;
+  position: absolute;
+  left: -96px;
+  top: 434px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, -1);
+}
+.section {
+  background: var(
+    --olivaclaro,
+    linear-gradient(to left, rgba(109, 101, 83, 0.1), rgba(109, 101, 83, 0.1)),
+    linear-gradient(to left, #ffffff, #ffffff)
+  );
+  padding: 70px 521px 70px 521px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.div-reloj {
+  flex-shrink: 0;
+  width: 399px;
+  height: 76px;
+  position: relative;
+}
+.div-dias {
+  border-style: solid;
+  border-color: #999999;
+  border-width: 0px 1px 0px 0px;
+  height: 76px;
+  position: absolute;
+  right: 299.25px;
+  left: 0px;
+  top: 0px;
+}
+.d-as {
+  color: var(--oliva, #6d6553);
+  text-align: center;
+  font: 500 22px/33px "Cormorant", sans-serif;
+  position: absolute;
+  left: 30.16px;
+  top: 43px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+._172 {
+  color: var(--oliva, #6d6553);
+  text-align: center;
+  font: 500 40px/100% "Playfair Display", sans-serif;
+  position: absolute;
+  left: 23.16px;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div-horas {
+  border-style: solid;
+  border-color: #999999;
+  border-width: 0px 1px 0px 0px;
+  height: 76px;
+  position: absolute;
+  right: 199.5px;
+  left: 99.75px;
+  top: 0px;
+}
+.hs {
+  color: var(--oliva, #6d6553);
+  text-align: center;
+  font: 500 22px/33px "Cormorant", sans-serif;
+  position: absolute;
+  left: 37.33px;
+  top: 43px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+._12 {
+  color: var(--oliva, #6d6553);
+  text-align: center;
+  font: 500 40px/100% "Playfair Display", sans-serif;
+  position: absolute;
+  left: 32.25px;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div-minutos {
+  border-style: solid;
+  border-color: #999999;
+  border-width: 0px 1px 0px 0px;
+  height: 76px;
+  position: absolute;
+  right: 99.75px;
+  left: 199.5px;
+  top: 0px;
+}
+.min {
+  color: var(--oliva, #6d6553);
+  text-align: center;
+  font: 500 22px/33px "Cormorant", sans-serif;
+  position: absolute;
+  left: 30.89px;
+  top: 43px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+._9 {
+  color: var(--oliva, #6d6553);
+  text-align: center;
+  font: 500 40px/100% "Playfair Display", sans-serif;
+  position: absolute;
+  left: 38.5px;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+._18 {
+  color: var(--oliva, #6d6553);
+  text-align: center;
+  font: 500 40px/100% "Playfair Display", sans-serif;
+  position: absolute;
+  left: 330px;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.seg {
+  color: var(--oliva, #6d6553);
+  text-align: center;
+  font: 500 22px/33px "Cormorant", sans-serif;
+  position: absolute;
+  left: 333.36px;
+  top: 43px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero2 {
+  background: #ffffff;
+  padding: 100px 293px 100px 293px;
+  display: flex;
+  flex-direction: column;
+  gap: 77px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.div-modal-body3 {
+  padding: 0px 42px 0px 42px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.ceremonia {
+  color: var(--oliva, #6d6553);
+  text-align: center;
+  font: 500 40px/50px "Cormorant", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.casa-de-ejercicios-san-ignacio-cra-32-14-33 {
+  color: var(--oliva, #6d6553);
+  text-align: center;
+  font: 400 20px/160% "Libre Baskerville", sans-serif;
+  text-transform: uppercase;
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.botones {
+  padding: 30px 10px 0px 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-26080033 {
+  border-radius: 160px;
+  border-style: solid;
+  border-color: var(--oliva, #6d6553);
+  border-width: 1px;
+  padding: 12px 20px 12px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.ver-en-mapa {
+  color: var(--oliva, #6d6553);
+  text-align: center;
+  font: var(--body, 400 18px/150% "Poppins", sans-serif);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.recepci-n {
+  color: var(--oliva, #6d6553);
+  text-align: center;
+  font: 500 40px/50px "Cormorant", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.s-bado-9-de-diciembre-19-00-hs {
+  color: var(--oliva, #6d6553);
+  text-align: center;
+  font: 400 20px/160% "Libre Baskerville", sans-serif;
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hotel-v-1501-calle-20-33-60 {
+  color: var(--oliva, #6d6553);
+  text-align: center;
+  font: 400 20px/160% "Libre Baskerville", sans-serif;
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame-26080034 {
+  border-radius: 160px;
+  border-style: solid;
+  border-color: var(--oliva, #6d6553);
+  border-width: 1px;
+  padding: 12px 20px 12px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.confirmar-asistencia {
+  color: var(--oliva, #6d6553);
+  text-align: center;
+  font: var(--body, 400 18px/150% "Poppins", sans-serif);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero3 {
+  background: #ffffff;
+  padding: 100px 293px 0px 293px;
+  display: flex;
+  flex-direction: column;
+  gap: 77px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.div-modal-body4 {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.dress-code {
+  color: var(--oliva, #6d6553);
+  text-align: center;
+  font: 500 40px/50px "Cormorant", sans-serif;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.elegante-vestido-largo-smoking {
+  color: var(--oliva, #6d6553);
+  text-align: center;
+  font: 400 20px/50px "Libre Baskerville", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div-modal-body5 {
+  padding: 40px 42px 40px 42px;
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-45 {
+  padding: 0px 100px 0px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.image-1 {
+  flex-shrink: 0;
+  width: 400px;
+  height: 568px;
+  position: relative;
+}
+.nos-reservamos-el-smoking-color-azul {
+  color: var(--oliva, #6d6553);
+  text-align: center;
+  font: var(--body, 400 18px/150% "Poppins", sans-serif);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section2 {
+  background: #ffffff;
+  padding: 100px 293px 100px 293px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 1440px;
+  position: relative;
+}
+.div-modal-body6 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0px 1px 0px;
+  padding: 40px 0px 40px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.regalo-de-boda {
+  color: #6d6553;
+  text-align: center;
+  font: 500 40px/50px "Cormorant", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lluvia-de-sobres {
+  color: #6d6553;
+  text-align: center;
+  font: var(--body, 400 18px/150% "Poppins", sans-serif);
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section3 {
+  background: var(--dorado, #bc865a);
+  padding: 100px 521px 100px 521px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 1440px;
+  position: relative;
+}
+.div-modal-body7 {
+  padding: 16px 42px 16px 42px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.rsvp {
+  color: var(--crema, #fff8f2);
+  text-align: center;
+  font: 500 40px/50px "Cormorant", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.agradecemos-si-pudieras-confirmar-tu-asistencia-hasta-30-d-as-antes-del-evento {
+  color: var(--crema, #fff8f2);
+  text-align: center;
+  font: var(--body, 400 18px/150% "Poppins", sans-serif);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame-26080035 {
+  padding: 30px 10px 0px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-260800342 {
+  border-radius: 160px;
+  border-style: solid;
+  border-color: var(--crema, #fff8f2);
+  border-width: 1px;
+  padding: 12px 20px 12px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.confirmar-asistencia2 {
+  color: var(--crema, #fff8f2);
+  text-align: center;
+  font: var(--body, 400 18px/150% "Poppins", sans-serif);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero4 {
+  background: #ffffff;
+  padding: 100px 293px 100px 293px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 1440px;
+  position: relative;
+  overflow: hidden;
+}
+.div-modal-body8 {
+  padding: 16px 0px 16px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.tips-para-viajeros {
+  color: var(--oliva, #6d6553);
+  text-align: center;
+  font: 500 40px/50px "Cormorant", sans-serif;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sabemos-que-vienen-desde-lejos-y-queremos-ayudarlos-con-algunas-recomendaciones {
+  color: var(--oliva, #6d6553);
+  text-align: center;
+  font: 400 18px/24px "Poppins", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame-452 {
+  padding: 0px 100px 0px 100px;
+  display: flex;
+  flex-direction: row;
+  gap: 42px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.group-5 {
+  flex-shrink: 0;
+  width: 355.91px;
+  height: 586.38px;
+  position: static;
+}
+.rectangle-39 {
+  border-radius: 312.89px;
+  width: 334.61px;
+  height: 552.67px;
+  position: absolute;
+  left: 110.65px;
+  top: 16.85px;
+}
+.rectangle-40 {
+  border-radius: 207.51px;
+  border-width: 3.91px;
+  border-style: solid;
+  border-image: linear-gradient(
+    180deg,
+    rgba(215, 215, 215, 1) 0%,
+    rgba(188, 134, 90, 0) 94.79166865348816%
+  );
+  border-image-slice: 1;
+  width: 355.91px;
+  height: 586.38px;
+  position: absolute;
+  left: 100px;
+  top: 0px;
+}
+.rectangle-34 {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  border-radius: 187.85px;
+  width: 334.89px;
+  height: 553.18px;
+  position: absolute;
+  left: 110.05px;
+  top: 17px;
+}
+.d-nde-pasear {
+  color: #ffffff;
+  text-align: center;
+  font: 400 24px "Poppins", sans-serif;
+  position: absolute;
+  left: 173.87px;
+  top: 474px;
+  width: 208.38px;
+}
+.group-6 {
+  flex-shrink: 0;
+  width: 355.91px;
+  height: 586.38px;
+  position: static;
+}
+.rectangle-392 {
+  border-radius: 312.89px;
+  width: 334.61px;
+  height: 552.67px;
+  position: absolute;
+  left: 508.57px;
+  top: 16.85px;
+}
+.rectangle-402 {
+  border-radius: 207.51px;
+  border-width: 3.91px;
+  border-style: solid;
+  border-image: linear-gradient(
+    180deg,
+    rgba(215, 215, 215, 1) 0%,
+    rgba(188, 134, 90, 0) 94.79166865348816%
+  );
+  border-image-slice: 1;
+  width: 355.91px;
+  height: 586.38px;
+  position: absolute;
+  left: 497.91px;
+  top: 0px;
+}
+.rectangle-342 {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  border-radius: 187.85px;
+  width: 334.89px;
+  height: 553.18px;
+  position: absolute;
+  left: 508.05px;
+  top: 17px;
+}
+.d-nde-c-mer {
+  color: #ffffff;
+  text-align: center;
+  font: 400 24px "Poppins", sans-serif;
+  position: absolute;
+  left: 571.87px;
+  top: 474px;
+  width: 208.38px;
+}
+.group-17 {
+  flex-shrink: 0;
+  width: 355.91px;
+  height: 586.38px;
+  position: static;
+}
+.rectangle-393 {
+  border-radius: 312.89px;
+  width: 334.61px;
+  height: 552.67px;
+  position: absolute;
+  left: 906.48px;
+  top: 16.85px;
+}
+.rectangle-403 {
+  border-radius: 207.51px;
+  border-width: 3.91px;
+  border-style: solid;
+  border-image: linear-gradient(
+    180deg,
+    rgba(215, 215, 215, 1) 0%,
+    rgba(188, 134, 90, 0) 94.79166865348816%
+  );
+  border-image-slice: 1;
+  width: 355.91px;
+  height: 586.38px;
+  position: absolute;
+  left: 895.83px;
+  top: 0px;
+}
+.rectangle-343 {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  border-radius: 187.85px;
+  width: 334.89px;
+  height: 553.18px;
+  position: absolute;
+  left: 906.05px;
+  top: 17px;
+}
+.d-nde-alistarse {
+  color: #ffffff;
+  text-align: center;
+  font: 400 24px "Poppins", sans-serif;
+  position: absolute;
+  left: 969.87px;
+  top: 474px;
+  width: 208.38px;
+}
+.d-nde-hospedarse {
+  color: var(--oliva, #6d6553);
+  text-align: center;
+  font: 500 40px/50px "Cormorant", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.recomendamos-hospedarse-en-los-barrios-xxx-xxx-y-alrededores-aqu-hay-algunas-opciones-de-hoteles-cercanos {
+  color: var(--oliva, #6d6553);
+  text-align: center;
+  font: var(--body, 400 18px/150% "Poppins", sans-serif);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hotel-v-1501 {
+  color: #ffffff;
+  text-align: center;
+  font: 400 24px "Poppins", sans-serif;
+  position: absolute;
+  left: 173.87px;
+  top: 474px;
+  width: 208.38px;
+}
+.group-18 {
+  flex-shrink: 0;
+  width: 355.91px;
+  height: 586.38px;
+  position: static;
+}
+.rectangle-344 {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  border-radius: 187.85px;
+  width: 334.89px;
+  height: 553.18px;
+  position: absolute;
+  left: 507.96px;
+  top: 17px;
+}
+.hotel-opci-n-2 {
+  color: #ffffff;
+  text-align: center;
+  font: 400 24px "Poppins", sans-serif;
+  position: absolute;
+  left: 571.78px;
+  top: 474px;
+  width: 208.38px;
+}
+.group-19 {
+  flex-shrink: 0;
+  width: 355.91px;
+  height: 586.38px;
+  position: static;
+}
+.rectangle-345 {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  border-radius: 187.85px;
+  width: 334.89px;
+  height: 553.18px;
+  position: absolute;
+  left: 905.88px;
+  top: 17px;
+}
+.hotel-opci-n-22 {
+  color: #ffffff;
+  text-align: center;
+  font: 400 24px "Poppins", sans-serif;
+  position: absolute;
+  left: 969.7px;
+  top: 474px;
+  width: 208.38px;
+}
+.section4 {
+  background: var(--rosa, #f9f1ef);
+  padding: 60px 160px 60px 160px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 1440px;
+  position: relative;
+}
+.div-modal-body9 {
+  padding: 16px 42px 16px 42px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.contacto {
+  color: var(--oliva, #6d6553);
+  text-align: center;
+  font: 500 40px/50px "Cormorant", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.si-ten-s-alguna-inquietud-no-dudes-en-contactarte-con-nuestra-wedding-planner {
+  color: var(--oliva, #6d6553);
+  text-align: center;
+  font: var(--body, 400 18px/150% "Poppins", sans-serif);
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mandar-whatsapp {
+  color: var(--oliva, #6d6553);
+  text-align: center;
+  font: var(--body, 400 18px/150% "Poppins", sans-serif);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner {
+  background: #ffffff;
+  padding: 0px 240px 0px 240px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-26080031 {
+  padding: 60px 0px 60px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 960px;
+  position: relative;
+}
+.a-r {
+  color: var(--oliva, #6d6553);
+  text-align: center;
+  font: 500 40px/100% "Playfair Display", sans-serif;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dise-ado-por-dinos-design-desarrollado-por-kiaruh {
+  color: var(--oliva, #6d6553);
+  text-align: center;
+  font: 400 16px/24px "Libre Baskerville", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* MOBILE VIEW */
+
+@media (max-width: 700px) {
+  .mobileM,
+  .mobileM * {
+    box-sizing: border-box;
+  }
+  .mobileM {
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: flex-start;
+    width: auto;
+    position: relative;
+    overflow: hidden;
+
+    max-width: 100vh;
+  }
+  .contentM {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .navbar-mobileM {
+    background: #ffffff;
+    border-style: solid;
+    border-color: #bc865a;
+    border-width: 0px 0px 1px 0px;
+    padding: 13px 15px 13px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .content2M {
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .a-rM {
+    color: var(--oliva, #6d6553);
+    text-align: left;
+    font: 500 40px/100% "Playfair Display", sans-serif;
+    position: relative;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .frame-26079990M {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: center;
+    justify-content: flex-end;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .icons-interactive-uiM {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+  }
+  .div-page-containerM {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .main-main-contentM {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 750px;
+    position: relative;
+  }
+  .div-shopify-section-template-14911182635123-16498172115-aa-71-f-1-dM {
+    background: #ffffff;
+    padding: 60px 0px 60px 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .div-pf-hero-wrapperM {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1;
+    position: relative;
+  }
+  .div-modal-bodyM {
+    padding: 0px 40px 0px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .angela-ricardoM {
+    color: var(--oliva, #6d6553);
+    text-align: center;
+    font: 500 50px/125% "Cormorant", sans-serif;
+    position: relative;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .diciembre-9-2023-pasto-nari-o-colombiaM {
+    color: var(--oliva, #6d6553);
+    text-align: center;
+    font: 400 14px/150% "Libre Baskerville", sans-serif;
+    position: relative;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .div-modal-body2M {
+    padding: 40px 42px 40px 42px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .s-bado-9-de-diciembre-17-00-hsM {
+    color: var(--oliva, #6d6553);
+    text-align: center;
+    font: 400 16px/160% "Libre Baskerville", sans-serif;
+    position: relative;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .line-12M {
+    border-style: solid;
+    border-color: var(--oliva, #6d6553);
+    border-width: 1px 0 0 0;
+    flex-shrink: 0;
+    width: 116px;
+    height: 0px;
+    position: relative;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+  }
+  .iglesia-sal-n-pasto-nari-o-colombiaM {
+    color: var(--oliva, #6d6553);
+    text-align: center;
+    font: 400 16px/160% "Libre Baskerville", sans-serif;
+    position: relative;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .group-20M {
+    flex-shrink: 0;
+    width: 388.02px;
+    height: 421px;
+    position: static;
+  }
+  .flores-M {
+    width: 319.6px;
+    height: 291.14px;
+    position: absolute;
+    left: 390.6px;
+    top: 837px;
+    transform-origin: 0 0;
+    transform: rotate(-180deg) scale(1, 1);
+  }
+  .flores-1-4-x-1M {
+    width: 261.12px;
+    height: 370.73px;
+    position: absolute;
+    left: 459.02px;
+    top: 416px;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(-1, 1);
+  }
+  .frame-26080034M {
+    border-radius: 160px;
+    border-style: solid;
+    border-color: var(--oliva, #6d6553);
+    border-width: 1px;
+    padding: 10px 14px 10px 14px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .confirmar-asistenciaM {
+    color: var(--oliva, #6d6553);
+    text-align: center;
+    font: 400 14px/150% "Poppins", sans-serif;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .sectionM {
+    background: var(
+      --olivaclaro,
+      linear-gradient(
+        to left,
+        rgba(109, 101, 83, 0.1),
+        rgba(109, 101, 83, 0.1)
+      ),
+      linear-gradient(to left, #ffffff, #ffffff)
+    );
+    padding: 50px 220px 50px 220px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .div-relojM {
+    flex-shrink: 0;
+    width: 319.2px;
+    height: 60.8px;
+    position: relative;
+  }
+  .div-diasM {
+    border-style: solid;
+    border-color: #999999;
+    border-width: 0px 0.8px 0px 0px;
+    height: 60.8px;
+    position: absolute;
+    right: 239.4px;
+    left: 0px;
+    top: 0px;
+  }
+  .d-asM {
+    color: var(--oliva, #6d6553);
+    text-align: center;
+    font: 500 17.6px/26.4px "Cormorant", sans-serif;
+    position: absolute;
+    left: 24.13px;
+    top: 34.4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  ._172M {
+    color: var(--oliva, #6d6553);
+    text-align: center;
+    font: 500 32px/100% "Playfair Display", sans-serif;
+    position: absolute;
+    left: 18.53px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .div-horasM {
+    border-style: solid;
+    border-color: #999999;
+    border-width: 0px 0.8px 0px 0px;
+    height: 60.8px;
+    position: absolute;
+    right: 159.6px;
+    left: 79.7999038696289px;
+    top: 0px;
+  }
+  .hsM {
+    color: var(--oliva, #6d6553);
+    text-align: center;
+    font: 500 17.6px/26.4px "Cormorant", sans-serif;
+    position: absolute;
+    left: 29.86px;
+    top: 34.4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  ._12M {
+    color: var(--oliva, #6d6553);
+    text-align: center;
+    font: 500 32px/100% "Playfair Display", sans-serif;
+    position: absolute;
+    left: 25.8px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .div-minutosM {
+    border-style: solid;
+    border-color: #999999;
+    border-width: 0px 0.8px 0px 0px;
+    height: 60.8px;
+    position: absolute;
+    right: 79.8px;
+    left: 159.5998992919922px;
+    top: 0px;
+  }
+  .minM {
+    color: var(--oliva, #6d6553);
+    text-align: center;
+    font: 500 17.6px/26.4px "Cormorant", sans-serif;
+    position: absolute;
+    left: 24.71px;
+    top: 34.4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  ._9M {
+    color: var(--oliva, #6d6553);
+    text-align: center;
+    font: 500 32px/100% "Playfair Display", sans-serif;
+    position: absolute;
+    left: 30.8px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .frame-26080040M {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4px;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    left: 264px;
+    top: 0px;
+  }
+  ._18M {
+    color: var(--oliva, #6d6553);
+    text-align: center;
+    font: 500 32px/100% "Playfair Display", sans-serif;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .segM {
+    color: var(--oliva, #6d6553);
+    text-align: center;
+    font: 500 17.6px/26.4px "Cormorant", sans-serif;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .heroM {
+    background: #ffffff;
+    padding: 100px 0px 100px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 77px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+  }
+  .div-modal-body3M {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .ceremoniaM {
+    color: var(--oliva, #6d6553);
+    text-align: center;
+    font: 500 40px/50px "Cormorant", sans-serif;
+    position: relative;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .casa-de-ejercicios-san-ignacio-cra-32-14-33M {
+    color: var(--oliva, #6d6553);
+    text-align: center;
+    font: 400 16px/160% "Libre Baskerville", sans-serif;
+    position: relative;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .botonesM {
+    padding: 30px 10px 0px 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .frame-26080033M {
+    border-radius: 160px;
+    border-style: solid;
+    border-color: var(--oliva, #6d6553);
+    border-width: 1px;
+    padding: 12px 20px 12px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .ver-en-mapaM {
+    color: var(--oliva, #6d6553);
+    text-align: center;
+    font: var(--body, 400 18px/150% "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .recepci-nM {
+    color: var(--oliva, #6d6553);
+    text-align: center;
+    font: 500 40px/50px "Cormorant", sans-serif;
+    position: relative;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .s-bado-9-de-diciembre-19-00-hsM {
+    color: var(--oliva, #6d6553);
+    text-align: center;
+    font: 400 16px/160% "Libre Baskerville", sans-serif;
+    position: relative;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hotel-v-1501-calle-20-33-60M {
+    color: var(--oliva, #6d6553);
+    text-align: center;
+    font: 400 16px/160% "Libre Baskerville", sans-serif;
+    position: relative;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .botones2M {
+    padding: 30px 10px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .frame-260800342M {
+    border-radius: 160px;
+    border-style: solid;
+    border-color: var(--oliva, #6d6553);
+    border-width: 1px;
+    padding: 12px 20px 12px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .confirmar-asistencia2M {
+    color: var(--oliva, #6d6553);
+    text-align: center;
+    font: var(--body, 400 18px/150% "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero2M {
+    background: #ffffff;
+    padding: 100px 20px 0px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 77px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+  }
+  .dress-codeM {
+    color: var(--oliva, #6d6553);
+    text-align: center;
+    font: 500 40px/50px "Cormorant", sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .elegante-vestido-largo-smokingM {
+    color: var(--oliva, #6d6553);
+    text-align: center;
+    font: 400 20px/50px "Libre Baskerville", sans-serif;
+    position: relative;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .div-modal-body4M {
+    padding: 40px 42px 40px 42px;
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .frame-45M {
+    padding: 0px 100px 0px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .image-1M {
+    flex-shrink: 0;
+    width: 340px;
+    height: 482.8px;
+    position: relative;
+  }
+  .nos-reservamos-el-smoking-color-azulM {
+    color: var(--oliva, #6d6553);
+    text-align: center;
+    font: var(--body, 400 18px/150% "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .section2M {
+    background: #ffffff;
+    padding: 100px 20px 100px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .div-modal-body5M {
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px 0px 1px 0px;
+    padding: 40px 0px 40px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .regalo-de-bodaM {
+    color: #6d6553;
+    text-align: center;
+    font: 500 40px/50px "Cormorant", sans-serif;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .lluvia-de-sobresM {
+    color: #6d6553;
+    text-align: center;
+    font: var(--body, 400 18px/150% "Poppins", sans-serif);
+    position: relative;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .section3M {
+    background: var(--dorado, #bc865a);
+    padding: 100px 0px 100px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .div-modal-body6M {
+    padding: 16px 42px 16px 42px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .rsvpM {
+    color: var(--crema, #fff8f2);
+    text-align: center;
+    font: 500 40px/50px "Cormorant", sans-serif;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .agradecemos-si-pudieras-confirmar-tu-asistencia-hasta-30-d-as-antes-del-eventoM {
+    color: var(--crema, #fff8f2);
+    text-align: center;
+    font: var(--body, 400 18px/150% "Poppins", sans-serif);
+    position: relative;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .frame-26080035M {
+    padding: 30px 10px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .frame-260800343M {
+    border-radius: 160px;
+    border-style: solid;
+    border-color: var(--crema, #fff8f2);
+    border-width: 1px;
+    padding: 12px 20px 12px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .confirmar-asistencia3M {
+    color: var(--crema, #fff8f2);
+    text-align: center;
+    font: var(--body, 400 18px/150% "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero3M {
+    background: #ffffff;
+    padding: 100px 20px 100px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+  }
+  .div-modal-body7M {
+    padding: 16px 0px 16px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .tips-para-viajerosM {
+    color: var(--oliva, #6d6553);
+    text-align: center;
+    font: 500 40px/50px "Cormorant", sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .sabemos-que-vienen-desde-lejos-y-queremos-ayudarlos-con-algunas-recomendacionesM {
+    color: var(--oliva, #6d6553);
+    text-align: center;
+    font: 400 18px/24px "Poppins", sans-serif;
+    position: relative;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .frame-452M {
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 395.91px;
+    position: relative;
+  }
+  .group-5M {
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 586.38px;
+    position: static;
+  }
+  .rectangle-39M {
+    border-radius: 312.89px;
+    width: 334.61px;
+    height: 552.67px;
+    position: absolute;
+    left: 30.65px;
+    top: 16.85px;
+  }
+  .rectangle-40M {
+    border-radius: 207.51px;
+    border-width: 3.91px;
+    border-style: solid;
+    border-image: linear-gradient(
+      180deg,
+      rgba(215, 215, 215, 1) 0%,
+      rgba(188, 134, 90, 0) 94.79166865348816%
+    );
+    border-image-slice: 1;
+    width: 355.91px;
+    height: 586.38px;
+    position: absolute;
+    left: 20px;
+    top: 0px;
+  }
+  .rectangle-34M {
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 1) 100%
+    );
+    border-radius: 187.85px;
+    width: 334.89px;
+    height: 553.18px;
+    position: absolute;
+    left: 30.05px;
+    top: 17px;
+  }
+  .d-nde-pasearM {
+    color: #ffffff;
+    text-align: center;
+    font: 400 24px "Poppins", sans-serif;
+    position: absolute;
+    left: 93.87px;
+    top: 474px;
+    width: 208.38px;
+  }
+  .group-6M {
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 586.38px;
+    position: static;
+  }
+  .rectangle-392M {
+    border-radius: 312.89px;
+    width: 334.61px;
+    height: 552.67px;
+    position: absolute;
+    left: 30.65px;
+    top: 645.23px;
+  }
+  .rectangle-402M {
+    border-radius: 207.51px;
+    border-width: 3.91px;
+    border-style: solid;
+    border-image: linear-gradient(
+      180deg,
+      rgba(215, 215, 215, 1) 0%,
+      rgba(188, 134, 90, 0) 94.79166865348816%
+    );
+    border-image-slice: 1;
+    width: 355.91px;
+    height: 586.38px;
+    position: absolute;
+    left: 20px;
+    top: 628.38px;
+  }
+  .rectangle-342M {
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 1) 100%
+    );
+    border-radius: 187.85px;
+    width: 334.89px;
+    height: 553.18px;
+    position: absolute;
+    left: 30.14px;
+    top: 645.38px;
+  }
+  .d-nde-c-merM {
+    color: #ffffff;
+    text-align: center;
+    font: 400 24px "Poppins", sans-serif;
+    position: absolute;
+    left: 93.96px;
+    top: 1102.38px;
+    width: 208.38px;
+  }
+  .group-17M {
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 586.38px;
+    position: static;
+  }
+  .rectangle-393M {
+    border-radius: 312.89px;
+    width: 334.61px;
+    height: 552.67px;
+    position: absolute;
+    left: 30.65px;
+    top: 1273.61px;
+  }
+  .rectangle-403M {
+    border-radius: 207.51px;
+    border-width: 3.91px;
+    border-style: solid;
+    border-image: linear-gradient(
+      180deg,
+      rgba(215, 215, 215, 1) 0%,
+      rgba(188, 134, 90, 0) 94.79166865348816%
+    );
+    border-image-slice: 1;
+    width: 355.91px;
+    height: 586.38px;
+    position: absolute;
+    left: 20px;
+    top: 1256.76px;
+  }
+  .rectangle-343M {
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 1) 100%
+    );
+    border-radius: 187.85px;
+    width: 334.89px;
+    height: 553.18px;
+    position: absolute;
+    left: 30.22px;
+    top: 1273.76px;
+  }
+  .d-nde-alistarseM {
+    color: #ffffff;
+    text-align: center;
+    font: 400 24px "Poppins", sans-serif;
+    position: absolute;
+    left: 94.04px;
+    top: 1730.76px;
+    width: 208.38px;
+  }
+  .d-nde-hospedarseM {
+    color: var(--oliva, #6d6553);
+    text-align: center;
+    font: 500 40px/50px "Cormorant", sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .recomendamos-hospedarse-en-los-barrios-xxx-xxx-y-alrededores-aqu-hay-algunas-opciones-de-hoteles-cercanosM {
+    color: var(--oliva, #6d6553);
+    text-align: center;
+    font: var(--body, 400 18px/150% "Poppins", sans-serif);
+    position: relative;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .frame-46M {
+    padding: 0px 100px 0px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .group-52M {
+    flex-shrink: 0;
+    width: 355.91px;
+    height: 586.38px;
+    position: static;
+  }
+  .rectangle-394M {
+    border-radius: 312.89px;
+    width: 334.61px;
+    height: 552.67px;
+    position: absolute;
+    left: 110.65px;
+    top: 16.85px;
+  }
+  .rectangle-40M {
+    border-radius: 207.51px;
+    border-width: 3.91px;
+    border-style: solid;
+    border-image: linear-gradient(
+      180deg,
+      rgba(215, 215, 215, 1) 0%,
+      rgba(188, 134, 90, 0) 94.79166865348816%
+    );
+    border-image-slice: 1;
+    width: 355.91px;
+    height: 586.38px;
+    position: absolute;
+    left: 100px;
+    top: 0px;
+  }
+  .rectangle-344M {
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 1) 100%
+    );
+    border-radius: 187.85px;
+    width: 334.89px;
+    height: 553.18px;
+    position: absolute;
+    left: 110.05px;
+    top: 17px;
+  }
+  .hotel-v-1501M {
+    color: #ffffff;
+    text-align: center;
+    font: 400 24px "Poppins", sans-serif;
+    position: absolute;
+    left: 173.87px;
+    top: 474px;
+    width: 208.38px;
+  }
+  .group-18M {
+    flex-shrink: 0;
+    width: 355.91px;
+    height: 586.38px;
+    position: static;
+  }
+  .rectangle-395M {
+    border-radius: 312.89px;
+    width: 334.61px;
+    height: 552.67px;
+    position: absolute;
+    left: 110.65px;
+    top: 645.23px;
+  }
+  .rectangle-405M {
+    border-radius: 207.51px;
+    border-width: 3.91px;
+    border-style: solid;
+    border-image: linear-gradient(
+      180deg,
+      rgba(215, 215, 215, 1) 0%,
+      rgba(188, 134, 90, 0) 94.79166865348816%
+    );
+    border-image-slice: 1;
+    width: 355.91px;
+    height: 586.38px;
+    position: absolute;
+    left: 100px;
+    top: 628.38px;
+  }
+  .rectangle-345M {
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 1) 100%
+    );
+    border-radius: 187.85px;
+    width: 334.89px;
+    height: 553.18px;
+    position: absolute;
+    left: 110.05px;
+    top: 645.38px;
+  }
+  .hotel-opci-n-2M {
+    color: #ffffff;
+    text-align: center;
+    font: 400 24px "Poppins", sans-serif;
+    position: absolute;
+    left: 173.87px;
+    top: 1102.38px;
+    width: 208.38px;
+  }
+  .group-19M {
+    flex-shrink: 0;
+    width: 355.91px;
+    height: 586.38px;
+    position: static;
+  }
+  .rectangle-396M {
+    border-radius: 312.89px;
+    width: 334.61px;
+    height: 552.67px;
+    position: absolute;
+    left: 110.65px;
+    top: 1273.61px;
+  }
+  .rectangle-406M {
+    border-radius: 207.51px;
+    border-width: 3.91px;
+    border-style: solid;
+    border-image: linear-gradient(
+      180deg,
+      rgba(215, 215, 215, 1) 0%,
+      rgba(188, 134, 90, 0) 94.79166865348816%
+    );
+    border-image-slice: 1;
+    width: 355.91px;
+    height: 586.38px;
+    position: absolute;
+    left: 100px;
+    top: 1256.76px;
+  }
+  .rectangle-346M {
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 1) 100%
+    );
+    border-radius: 187.85px;
+    width: 334.89px;
+    height: 553.18px;
+    position: absolute;
+    left: 110.05px;
+    top: 1273.76px;
+  }
+  .hotel-opci-n-22M {
+    color: #ffffff;
+    text-align: center;
+    font: 400 24px "Poppins", sans-serif;
+    position: absolute;
+    left: 173.87px;
+    top: 1730.76px;
+    width: 208.38px;
+  }
+  .section4M {
+    background: var(--rosa, #f9f1ef);
+    padding: 60px 0px 60px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .contactoM {
+    color: var(--oliva, #6d6553);
+    text-align: center;
+    font: 500 40px/50px "Cormorant", sans-serif;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .si-ten-s-alguna-inquietud-no-dudes-en-contactarte-con-nuestra-wedding-plannerM {
+    color: var(--oliva, #6d6553);
+    text-align: center;
+    font: var(--body, 400 18px/150% "Poppins", sans-serif);
+    position: relative;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .mandar-whatsappM {
+    color: var(--oliva, #6d6553);
+    text-align: center;
+    font: var(--body, 400 18px/150% "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .bannerM {
+    background: #ffffff;
+    padding: 0px 30px 0px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .frame-26080031M {
+    padding: 60px 0px 60px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .a-r2M {
+    color: var(--oliva, #6d6553);
+    text-align: center;
+    font: 500 40px/100% "Playfair Display", sans-serif;
+    position: relative;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .dise-ado-por-dinos-design-desarrollado-por-kiaruhM {
+    color: var(--oliva, #6d6553);
+    text-align: center;
+    font: 400 14px/150% "Libre Baskerville", sans-serif;
+    position: relative;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
