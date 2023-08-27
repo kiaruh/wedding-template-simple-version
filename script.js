@@ -35,10 +35,12 @@ window.addEventListener("resize", function () {
   updateElementVisibility();
 });
 
-// 
+
+
+// countdown
 // Function to calculate and update the countdown
 function updateCountdown() {
-  // Set the target date (December 9, 2030)
+  // Set the target date (December 9, 2023)
   const targetDate = new Date('2023-12-09T00:00:00');
 
   // Get the current date and time
@@ -58,6 +60,11 @@ function updateCountdown() {
   document.querySelector('._12').textContent = hours;
   document.querySelector('._9').textContent = minutes;
   document.querySelector('._18').textContent = seconds;
+
+  document.querySelector('._172M').textContent = days;
+  document.querySelector('._12M').textContent = hours;
+  document.querySelector('._9M').textContent = minutes;
+  document.querySelector('._18M').textContent = seconds;
 }
 
 // Call the updateCountdown function initially
@@ -65,4 +72,3 @@ updateCountdown();
 
 // Update the countdown every second
 setInterval(updateCountdown, 1000);
-
