@@ -1,21 +1,33 @@
-.content {
+
+.wedding {
+  display: inline-flex;
+  height: 1024px;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  background-color: #ffffff;
+  width: 100vw;
+  padding: 0 1% 0 1%; 
+}
+
+.wedding .content {
   display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
   position: relative;
-  max-width: 85vw;
-  margin: 0 10% 0 10%;
+  flex: 0 0 auto;
+  margin-bottom: -4457.38px;
 }
 
-.content .hero {
+.wedding .hero {
+  position: relative;
   width: 1440px;
   height: 810px;
-  overflow: hidden;
-  position: relative;
   background-color: #ffffff;
+  overflow: hidden;
 }
 
-.content .overlap-group {
+.wedding .overlap-group {
   position: absolute;
   width: 1224px;
   height: 775px;
@@ -23,7 +35,7 @@
   left: -96px;
 }
 
-.content .div-modal-body {
+.wedding .div-modal-body {
   display: inline-flex;
   flex-direction: column;
   padding: 0px 42px;
@@ -34,7 +46,7 @@
   gap: 18px;
 }
 
-.content .text-wrapper {
+.wedding .text-wrapper {
   position: relative;
   width: fit-content;
   margin-top: -1px;
@@ -48,7 +60,7 @@
   white-space: nowrap;
 }
 
-.content .ANGELA-RICARDO {
+.wedding .ANGELA-RICARDO {
   position: relative;
   width: fit-content;
   font-family: "Cormorant", Helvetica;
@@ -61,7 +73,7 @@
   white-space: nowrap;
 }
 
-.content .div {
+.wedding .div {
   display: flex;
   width: 731px;
   justify-content: center;
@@ -72,7 +84,7 @@
   gap: 18px;
 }
 
-.content .p {
+.wedding .p {
   position: relative;
   flex: 1;
   font-family: "Libre Baskerville", Helvetica;
@@ -84,14 +96,14 @@
   line-height: 32px;
 }
 
-.content .line {
+.wedding .line {
   position: relative;
   width: 1px;
   height: 116px;
   object-fit: cover;
 }
 
-.content .frame {
+.wedding .frame {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -105,7 +117,7 @@
   border-color: var(--oliva);
 }
 
-.content .text-wrapper-2 {
+.wedding .text-wrapper-2 {
   position: relative;
   width: fit-content;
   margin-top: -0.5px;
@@ -119,7 +131,7 @@
   white-space: nowrap;
 }
 
-.content .flores {
+.wedding .flores {
   position: absolute;
   width: 601px;
   height: 417px;
@@ -128,7 +140,7 @@
   object-fit: cover;
 }
 
-.content .flores-x {
+.wedding .img {
   position: absolute;
   width: 374px;
   height: 531px;
@@ -137,7 +149,7 @@
   object-fit: cover;
 }
 
-.content .frame-2 {
+.wedding .frame-2 {
   display: flex;
   width: 960px;
   align-items: center;
@@ -149,33 +161,8 @@
   left: 240px;
 }
 
-.content .link {
-  display: inline-flex;
-  align-items: flex-start;
-  gap: 10px;
-  position: relative;
-  flex: 0 0 auto;
-  border-bottom-width: 2px;
-  border-bottom-style: solid;
-  border-color: var(--oliva);
-}
 
-.content .text-wrapper-3 {
-  margin-top: -2px;
-  font-family: var(--body-sm-font-family);
-  font-weight: var(--body-sm-font-weight);
-  font-size: var(--body-sm-font-size);
-  line-height: var(--body-sm-line-height);
-  position: relative;
-  width: fit-content;
-  color: var(--oliva);
-  text-align: center;
-  letter-spacing: var(--body-sm-letter-spacing);
-  white-space: nowrap;
-  font-style: var(--body-sm-font-style);
-}
-
-.content .div-wrapper {
+.wedding .div-wrapper {
   display: inline-flex;
   align-items: flex-start;
   gap: 10px;
@@ -183,7 +170,7 @@
   flex: 0 0 auto;
 }
 
-.content .text-wrapper-4 {
+.wedding .text-wrapper-4 {
   font-family: var(--body-sm-font-family);
   font-weight: var(--body-sm-font-weight);
   font-size: var(--body-sm-font-size);
@@ -198,24 +185,24 @@
   font-style: var(--body-sm-font-style);
 }
 
-.content .section {
+.wedding .section-counter {
   display: inline-flex;
   align-items: flex-start;
+  gap: 10px;
   padding: 70px 521px;
   background-color: var(--oliva-claro);
   flex-direction: column;
-  gap: 10px;
   position: relative;
   flex: 0 0 auto;
 }
 
-.content .div-reloj {
+.wedding .div-reloj {
   position: relative;
   width: 399px;
   height: 76px;
 }
 
-.content .div-dias {
+.wedding .div-dias {
   position: absolute;
   width: 100px;
   height: 76px;
@@ -226,7 +213,7 @@
   border-color: #999999;
 }
 
-.content .d-as {
+.wedding .d-as {
   position: absolute;
   height: 33px;
   top: 42px;
@@ -241,7 +228,7 @@
   white-space: nowrap;
 }
 
-.content .text-wrapper-5 {
+.wedding .text-wrapper-5 {
   left: 23px;
   position: absolute;
   height: 40px;
@@ -256,7 +243,7 @@
   white-space: nowrap;
 }
 
-.content .div-horas {
+.wedding .div-horas {
   position: absolute;
   width: 100px;
   height: 76px;
@@ -267,7 +254,7 @@
   border-color: #999999;
 }
 
-.content .hs {
+.wedding .hs {
   position: absolute;
   height: 33px;
   top: 42px;
@@ -282,7 +269,7 @@
   white-space: nowrap;
 }
 
-.content .text-wrapper-6 {
+.wedding .text-wrapper-6 {
   left: 32px;
   position: absolute;
   height: 40px;
@@ -297,7 +284,7 @@
   white-space: nowrap;
 }
 
-.content .div-minutos {
+.wedding .div-minutos {
   position: absolute;
   width: 100px;
   height: 76px;
@@ -308,7 +295,7 @@
   border-color: #999999;
 }
 
-.content .min {
+.wedding .min {
   position: absolute;
   height: 33px;
   top: 42px;
@@ -323,7 +310,7 @@
   white-space: nowrap;
 }
 
-.content .text-wrapper-7 {
+.wedding .text-wrapper-7 {
   left: 38px;
   position: absolute;
   height: 40px;
@@ -338,7 +325,7 @@
   white-space: nowrap;
 }
 
-.content .text-wrapper-8 {
+.wedding .text-wrapper-8 {
   left: 330px;
   position: absolute;
   height: 40px;
@@ -353,7 +340,7 @@
   white-space: nowrap;
 }
 
-.content .seg {
+.wedding .seg {
   position: absolute;
   height: 33px;
   top: 42px;
@@ -368,20 +355,20 @@
   white-space: nowrap;
 }
 
-.content .div-modal-body-wrapper {
+.wedding .div-modal-body-wrapper {
   display: flex;
-  flex-direction: column;
   align-items: center;
   gap: 77px;
   padding: 100px 293px;
   align-self: stretch;
   width: 100%;
-  flex: 0 0 auto;
-  position: relative;
   background-color: #ffffff;
+  flex-direction: column;
+  position: relative;
+  flex: 0 0 auto;
 }
 
-.content .div-modal-body-2 {
+.wedding .div-modal-body-2 {
   display: inline-flex;
   flex-direction: column;
   align-items: center;
@@ -391,7 +378,7 @@
   flex: 0 0 auto;
 }
 
-.content .text-wrapper-9 {
+.wedding .text-wrapper-9 {
   margin-top: -1px;
   font-family: "Cormorant", Helvetica;
   font-weight: 500;
@@ -405,7 +392,7 @@
   white-space: nowrap;
 }
 
-.content .text-wrapper-10 {
+.wedding .text-wrapper-10 {
   position: relative;
   width: fit-content;
   font-family: "Libre Baskerville", Helvetica;
@@ -418,7 +405,7 @@
   white-space: nowrap;
 }
 
-.content .div-modal-body-3 {
+.wedding .div-modal-body-3 {
   display: flex;
   width: 731px;
   justify-content: center;
@@ -429,7 +416,7 @@
   gap: 18px;
 }
 
-.content .botones {
+.wedding .botones {
   display: inline-flex;
   align-items: flex-start;
   gap: 30px;
@@ -438,7 +425,7 @@
   flex: 0 0 auto;
 }
 
-.content .frame-3 {
+.wedding .frame-3 {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -455,7 +442,7 @@
   border-color: var(--oliva);
 }
 
-.content .frame-4 {
+.wedding .frame-4 {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -471,7 +458,7 @@
   border-color: var(--oliva);
 }
 
-.content .frame-5 {
+.wedding .frame-5 {
   border-color: var(--oliva);
   display: inline-flex;
   align-items: center;
@@ -487,20 +474,20 @@
   border: 1px solid;
 }
 
-.content .hero-2 {
+.wedding .section-dresscode {
   display: flex;
-  flex-direction: column;
   align-items: center;
   gap: 77px;
   padding: 100px 293px 0px;
   align-self: stretch;
   width: 100%;
-  flex: 0 0 auto;
-  position: relative;
   background-color: #ffffff;
+  flex-direction: column;
+  position: relative;
+  flex: 0 0 auto;
 }
 
-.content .div-modal-body-4 {
+.wedding .div-modal-body-4 {
   display: flex;
   flex-direction: column;
   position: relative;
@@ -511,7 +498,7 @@
   gap: 18px;
 }
 
-.content .text-wrapper-11 {
+.wedding .text-wrapper-11 {
   position: relative;
   width: fit-content;
   font-family: var(--body-font-family);
@@ -525,7 +512,7 @@
   font-style: var(--body-font-style);
 }
 
-.content .frame-wrapper {
+.wedding .frame-wrapper {
   display: flex;
   justify-content: center;
   padding: 40px 42px;
@@ -537,7 +524,7 @@
   gap: 18px;
 }
 
-.content .frame-6 {
+.wedding .frame-6 {
   display: inline-flex;
   flex-direction: column;
   align-items: center;
@@ -547,27 +534,27 @@
   flex: 0 0 auto;
 }
 
-.content .image {
+.wedding .img-dresscode {
   position: relative;
   width: 400px;
   height: 568px;
   object-fit: cover;
 }
 
-.content .section-2 {
+.wedding .section-regalo {
   display: flex;
   width: 1440px;
   align-items: center;
   justify-content: center;
+  gap: 10px;
   padding: 100px 293px;
   background-color: #ffffff;
   flex-direction: column;
-  gap: 10px;
   position: relative;
   flex: 0 0 auto;
 }
 
-.content .div-modal-body-5 {
+.wedding .div-modal-body-5 {
   display: flex;
   flex-direction: column;
   padding: 40px 0px;
@@ -584,7 +571,7 @@
   gap: 18px;
 }
 
-.content .text-wrapper-12 {
+.wedding .text-wrapper-12 {
   position: relative;
   width: fit-content;
   margin-top: -1px;
@@ -598,7 +585,7 @@
   white-space: nowrap;
 }
 
-.content .text-wrapper-13 {
+.wedding .text-wrapper-13 {
   position: relative;
   align-self: stretch;
   font-family: var(--body-font-family);
@@ -611,20 +598,20 @@
   font-style: var(--body-font-style);
 }
 
-.content .section-3 {
+.wedding .section-RSVP {
   display: flex;
   width: 1440px;
   align-items: center;
   justify-content: center;
+  gap: 10px;
   padding: 100px 521px;
   background-color: var(--dorado);
   flex-direction: column;
-  gap: 10px;
   position: relative;
   flex: 0 0 auto;
 }
 
-.content .div-modal-body-6 {
+.wedding .div-modal-body-6 {
   display: inline-flex;
   flex-direction: column;
   padding: 16px 42px;
@@ -636,7 +623,7 @@
   gap: 18px;
 }
 
-.content .text-wrapper-14 {
+.wedding .text-wrapper-14 {
   position: relative;
   width: fit-content;
   margin-top: -1px;
@@ -650,7 +637,7 @@
   white-space: nowrap;
 }
 
-.content .text-wrapper-15 {
+.wedding .text-wrapper-15 {
   position: relative;
   width: fit-content;
   font-family: var(--body-font-family);
@@ -664,7 +651,7 @@
   font-style: var(--body-font-style);
 }
 
-.content .frame-7 {
+.wedding .frame-7 {
   display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
@@ -674,7 +661,7 @@
   flex: 0 0 auto;
 }
 
-.content .frame-8 {
+.wedding .frame-8 {
   margin-left: -1px;
   border-color: var(--crema);
   display: inline-flex;
@@ -691,7 +678,7 @@
   border: 1px solid;
 }
 
-.content .text-wrapper-16 {
+.wedding .text-wrapper-16 {
   position: relative;
   width: fit-content;
   margin-top: -0.5px;
@@ -706,19 +693,19 @@
   font-style: var(--body-font-style);
 }
 
-.content .hero-3 {
+.wedding .section-info {
   display: flex;
-  flex-direction: column;
   width: 1440px;
   align-items: center;
   gap: 40px;
   padding: 100px 293px;
-  flex: 0 0 auto;
-  position: relative;
   background-color: #ffffff;
+  flex-direction: column;
+  position: relative;
+  flex: 0 0 auto;
 }
 
-.content .div-modal-body-7 {
+.wedding .div-modal-body-7 {
   display: flex;
   flex-direction: column;
   padding: 16px 0px;
@@ -730,7 +717,7 @@
   gap: 18px;
 }
 
-.content .text-wrapper-17 {
+.wedding .text-wrapper-17 {
   position: relative;
   width: fit-content;
   font-family: "Poppins", Helvetica;
@@ -743,7 +730,7 @@
   white-space: nowrap;
 }
 
-.content .frame-9 {
+.wedding .frame-9 {
   display: inline-flex;
   align-items: flex-start;
   gap: 42px;
@@ -754,20 +741,20 @@
   margin-right: -248.87px;
 }
 
-.content .group {
+.wedding .group {
   position: relative;
   width: 357.91px;
   height: 586.38px;
 }
 
-.content .overlap-group-2 {
+.wedding .overlap-group-2 {
   position: relative;
   width: 356px;
   height: 586px;
   border-radius: 207.51px;
 }
 
-.content .rectangle {
+.wedding .img-2 {
   position: absolute;
   width: 335px;
   height: 553px;
@@ -775,7 +762,8 @@
   left: 11px;
 }
 
-.content .rectangle-3 {
+
+.wedding .rectangle-2 {
   position: absolute;
   width: 335px;
   height: 553px;
@@ -785,7 +773,7 @@
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%);
 }
 
-.content .text-wrapper-18 {
+.wedding .text-wrapper-18 {
   position: absolute;
   width: 208px;
   top: 448px;
@@ -799,7 +787,7 @@
   line-height: normal;
 }
 
-.content .img {
+.wedding .img-pelu {
   position: absolute;
   width: 335px;
   height: 553px;
@@ -808,27 +796,27 @@
   object-fit: cover;
 }
 
-.content .overlap-wrapper {
+.wedding .overlap-wrapper {
   margin-right: -2px;
   position: relative;
   width: 357.91px;
   height: 586.38px;
 }
 
-.content .section-4 {
+.wedding .section-contacto {
   display: flex;
   width: 1440px;
   align-items: center;
   justify-content: center;
+  gap: 10px;
   padding: 60px 160px;
   background-color: var(--rosa);
   flex-direction: column;
-  gap: 10px;
   position: relative;
   flex: 0 0 auto;
 }
 
-.content .div-modal-body-8 {
+.wedding .div-modal-body-8 {
   display: flex;
   flex-direction: column;
   padding: 16px 42px;
@@ -840,7 +828,7 @@
   gap: 18px;
 }
 
-.content .text-wrapper-19 {
+.wedding .text-wrapper-19 {
   position: relative;
   align-self: stretch;
   font-family: var(--body-font-family);
@@ -853,7 +841,7 @@
   font-style: var(--body-font-style);
 }
 
-.content .banner {
+.wedding .footer {
   display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
@@ -864,7 +852,7 @@
   background-color: #ffffff;
 }
 
-.content .frame-10 {
+.wedding .frame-10 {
   display: flex;
   flex-direction: column;
   width: 960px;
@@ -876,7 +864,7 @@
   flex: 0 0 auto;
 }
 
-.content .a-r {
+.wedding .a-r {
   position: relative;
   align-self: stretch;
   margin-top: -1px;
@@ -889,7 +877,7 @@
   line-height: 40px;
 }
 
-.content .text-wrapper-20 {
+.wedding .text-wrapper-20 {
   position: relative;
   width: fit-content;
   font-family: "Libre Baskerville", Helvetica;
@@ -900,4 +888,8 @@
   letter-spacing: 0;
   line-height: 24px;
   white-space: nowrap;
+}
+a, a:visited, a:link, a:active{
+  text-decoration: none;
+  
 }
