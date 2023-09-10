@@ -1,0 +1,25 @@
+:root {
+  --oliva: rgba(109, 101, 83, 1);
+  --dorado: rgba(188, 134, 90, 1);
+  --rosa: rgba(249, 241, 239, 1);
+  --crema: rgba(255, 248, 242, 1);
+  --oliva-claro: rgba(255, 255, 255, 1);
+  --body-font-family: "Poppins-Regular", Helvetica;
+  --body-font-weight: 400;
+  --body-font-size: 18px;
+  --body-letter-spacing: 0px;
+  --body-line-height: 150%;
+  --body-font-style: normal;
+  --body-sm-font-family: "Poppins-Regular", Helvetica;
+  --body-sm-font-weight: 400;
+  --body-sm-font-size: 16px;
+  --body-sm-letter-spacing: 0px;
+  --body-sm-line-height: 24px;
+  --body-sm-font-style: normal;
+  --body-large-CTA-font-family: "Poppins-Regular", Helvetica;
+  --body-large-CTA-font-weight: 400;
+  --body-large-CTA-font-size: 20px;
+  --body-large-CTA-letter-spacing: 0px;
+  --body-large-CTA-line-height: 160.0000023841858%;
+  --body-large-CTA-font-style: normal;
+}

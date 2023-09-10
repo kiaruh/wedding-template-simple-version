@@ -56,15 +56,15 @@ function updateCountdown() {
   const seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
 
   // Update the HTML elements with the calculated values
-  document.querySelector('._172').textContent = days;
-  document.querySelector('._12').textContent = hours;
-  document.querySelector('._9').textContent = minutes;
-  document.querySelector('._18').textContent = seconds;
+  document.querySelector('.text-wrapper-5').textContent = days;
+  document.querySelector('.text-wrapper-6').textContent = hours;
+  document.querySelector('.text-wrapper-7').textContent = minutes;
+  document.querySelector('.text-wrapper-8').textContent = seconds;
 
-  document.querySelector('._172M').textContent = days;
-  document.querySelector('._12M').textContent = hours;
-  document.querySelector('._9M').textContent = minutes;
-  document.querySelector('._18M').textContent = seconds;
+  // document.querySelector('._172M').textContent = days;
+  // document.querySelector('._12M').textContent = hours;
+  // document.querySelector('._9M').textContent = minutes;
+  // document.querySelector('._18M').textContent = seconds;
 }
 
 // Call the updateCountdown function initially
