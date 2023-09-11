@@ -870,7 +870,7 @@
   position: relative;
   flex: 0 0 auto;
   background-color: #ffffff;
-  
+  margin: auto;
 }
 
 .wedding .frame-10 {
@@ -1207,7 +1207,8 @@ a, a:visited, a:link, a:active{
   .mobile .section-counterM {
     justify-content: center;
     gap: 10px;
-    padding: 70px 521px;
+    /* padding: 70px 521px; */
+    padding-top: 15px;
     background-color: var(--oliva-claro);
     display: flex;
     flex-direction: column;
@@ -1796,17 +1797,7 @@ a, a:visited, a:link, a:active{
     left: 9px;
   }
   
-  .mobile .rectangle {
-    position: absolute;
-    width: 300px;
-    height: 494px;
-    top: 0;
-    left: 0;
-    border-radius: 174.91px;
-    border: 3.3px solid;
-    border-color: transparent;
-    border-image: linear-gradient(to bottom, rgb(214.62, 214.62, 214.62), rgba(188, 134, 90, 0) 94.79%) 1;
-  }
+
   
   .mobile .rectangle-2 {
     position: absolute;
@@ -1893,7 +1884,7 @@ a, a:visited, a:link, a:active{
     white-space: nowrap;
   }
   
-  .mobile .footer {
+  .mobile .footerM {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
