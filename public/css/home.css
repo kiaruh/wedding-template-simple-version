@@ -6,8 +6,8 @@
   gap: 10px;
   position: relative;
   background-color: #ffffff;
-  width: 100vw;
-  padding: 0 1% 0 1%; 
+  width: 100%;
+  padding:auto;
 }
 
 .wedding .content {
@@ -17,33 +17,44 @@
   position: relative;
   flex: 0 0 auto;
   margin-bottom: -4457.38px;
+  margin: auto;
+  width: 100%;
+  
 }
 
 .wedding .hero {
   position: relative;
-  width: 1440px;
+  /* width: 1440px; */
+  width: 100%;
   height: 810px;
   background-color: #ffffff;
   overflow: hidden;
 }
 
 .wedding .overlap-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
-  width: 1224px;
+  /* width: 1224px; */
+  width: 100%;
   height: 775px;
   top: -169px;
   left: -96px;
 }
 
 .wedding .div-modal-body {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
-  padding: 0px 42px;
+  /* padding: 0px 42px; */
   position: absolute;
   top: 414px;
-  left: 409px;
+  left: 100px;
+  justify-content: center;
   align-items: center;
   gap: 18px;
+  width: 100vw;
+  
 }
 
 .wedding .text-wrapper {
@@ -136,7 +147,7 @@
   width: 601px;
   height: 417px;
   top: 0;
-  left: 98px;
+  left: 200px;
   object-fit: cover;
 }
 
@@ -151,14 +162,15 @@
 
 .wedding .frame-2 {
   display: flex;
-  width: 960px;
+  /* width: 960px; */
+  width: 100%;
   align-items: center;
   justify-content: center;
   gap: 40px;
-  padding: 30px 0px;
+  /* padding: 30px 0px; */
   position: absolute;
   top: 685px;
-  left: 240px;
+  /* left: 240px; */
 }
 
 
@@ -186,14 +198,16 @@
 }
 
 .wedding .section-counter {
-  display: inline-flex;
-  align-items: flex-start;
+  display: flex;
+  align-items: center;
   gap: 10px;
-  padding: 70px 521px;
+  /* padding: 70px 521px; */
   background-color: var(--oliva-claro);
   flex-direction: column;
-  position: relative;
+  /* position: relative; */
   flex: 0 0 auto;
+  margin:auto;
+  width: auto;
 }
 
 .wedding .div-reloj {
@@ -543,7 +557,8 @@
 
 .wedding .section-regalo {
   display: flex;
-  width: 1440px;
+  /* width: 1440px; */
+  width: 100%;
   align-items: center;
   justify-content: center;
   gap: 10px;
@@ -600,7 +615,8 @@
 
 .wedding .section-RSVP {
   display: flex;
-  width: 1440px;
+  /* width: 1440px; */
+  width: 100%;
   align-items: center;
   justify-content: center;
   gap: 10px;
@@ -695,7 +711,8 @@
 
 .wedding .section-info {
   display: flex;
-  width: 1440px;
+  /* width: 1440px; */
+  width: 100%;
   align-items: center;
   gap: 40px;
   padding: 100px 293px;
@@ -805,7 +822,8 @@
 
 .wedding .section-contacto {
   display: flex;
-  width: 1440px;
+  /* width: 1440px; */
+  width: 100%;
   align-items: center;
   justify-content: center;
   gap: 10px;
@@ -842,14 +860,15 @@
 }
 
 .wedding .footer {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   gap: 10px;
-  padding: 0px 240px;
+  /* padding: 0px 240px; */
   position: relative;
   flex: 0 0 auto;
   background-color: #ffffff;
+  
 }
 
 .wedding .frame-10 {
