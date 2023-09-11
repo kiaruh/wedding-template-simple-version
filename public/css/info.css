@@ -550,7 +550,7 @@ a, a:visited, a:link, a:active{
 
 /* Mobile CSS */
 
-@media (max-width:900px ) {
+@media (max-width:1023px ) {
   .wedding{
     display: none;
   }
