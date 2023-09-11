@@ -924,7 +924,6 @@ a, a:visited, a:link, a:active{
   }
 
   .mobile {
-    z-index: 1; /* Ensure the header is above other content */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1195,18 +1194,17 @@ a, a:visited, a:link, a:active{
     position: relative;
     width: fit-content;
     margin-top: -0.5px;
-    font-family: var(--body-font-family);
-    font-weight: var(--body-font-weight);
+    font-family: "Poppins", Helvetica;
+    font-weight: 400;
     color: var(--oliva);
-    font-size: var(--body-font-size);
+    font-size: 18px;
     text-align: center;
-    letter-spacing: var(--body-letter-spacing);
-    line-height: var(--body-line-height);
+    letter-spacing: 0;
+    line-height: 27px;
     white-space: nowrap;
-    font-style: var(--body-font-style);
   }
   
-  .mobile .section-counter {
+  .mobile .section-counterM {
     justify-content: center;
     gap: 10px;
     padding: 70px 521px;
@@ -1220,7 +1218,7 @@ a, a:visited, a:link, a:active{
     flex: 0 0 auto;
   }
   
-  .mobile .div-reloj {
+  .mobile .div-relojM {
     position: relative;
     width: 319.2px;
     height: 60.8px;
@@ -1228,7 +1226,7 @@ a, a:visited, a:link, a:active{
     margin-right: -485.6px;
   }
   
-  .mobile .div-dias {
+  .mobile .div-diasM {
     position: absolute;
     width: 80px;
     height: 61px;
@@ -1239,7 +1237,7 @@ a, a:visited, a:link, a:active{
     border-color: #999999;
   }
   
-  .mobile .d-as {
+  .mobile .d-asM {
     position: absolute;
     height: 27px;
     top: 34px;
@@ -1269,7 +1267,7 @@ a, a:visited, a:link, a:active{
     white-space: nowrap;
   }
   
-  .mobile .div-horas {
+  .mobile .div-horasM {
     position: absolute;
     width: 80px;
     height: 61px;
@@ -1280,7 +1278,7 @@ a, a:visited, a:link, a:active{
     border-color: #999999;
   }
   
-  .mobile .hs {
+  .mobile .hsM {
     position: absolute;
     height: 27px;
     top: 34px;
@@ -1310,7 +1308,7 @@ a, a:visited, a:link, a:active{
     white-space: nowrap;
   }
   
-  .mobile .div-minutos {
+  .mobile .div-minutosM {
     position: absolute;
     width: 80px;
     height: 61px;
@@ -1321,7 +1319,7 @@ a, a:visited, a:link, a:active{
     border-color: #999999;
   }
   
-  .mobile .min {
+  .mobile .minM {
     position: absolute;
     height: 27px;
     top: 34px;
@@ -1351,7 +1349,7 @@ a, a:visited, a:link, a:active{
     white-space: nowrap;
   }
   
-  .mobile .frame-2 {
+  .mobile .frame-2M {
     display: inline-flex;
     flex-direction: column;
     align-items: center;
@@ -1375,7 +1373,7 @@ a, a:visited, a:link, a:active{
     white-space: nowrap;
   }
   
-  .mobile .seg {
+  .mobile .segM {
     position: relative;
     width: fit-content;
     font-family: "Cormorant", Helvetica;
@@ -1713,18 +1711,17 @@ a, a:visited, a:link, a:active{
   }
   
   .mobile .text-wrapper-15 {
-    color: var(--crema);
     position: relative;
     width: fit-content;
     margin-top: -0.5px;
-    font-family: var(--body-font-family);
-    font-weight: var(--body-font-weight);
-    font-size: var(--body-font-size);
+    font-family: "Poppins", Helvetica;
+    font-weight: 400;
+    color: var(--crema);
+    font-size: 18px;
     text-align: center;
-    letter-spacing: var(--body-letter-spacing);
-    line-height: var(--body-line-height);
+    letter-spacing: 0;
+    line-height: 27px;
     white-space: nowrap;
-    font-style: var(--body-font-style);
   }
   
   .mobile .section-info {
@@ -1946,6 +1943,7 @@ a, a:visited, a:link, a:active{
     letter-spacing: 0;
     line-height: 21px;
   }
+  
   
   
 }

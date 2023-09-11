@@ -36,33 +36,4 @@ setInterval(updateCountdown, 1000);
 
 
 //Nav bar
-// Get DOM elements
-const openNavButton = document.getElementById('icons-interactive-UI');
-const closeNavButton = document.getElementById('element-outline-close-x');
-const sideNav = document.getElementById('wireframe-footer');
 
-// Function to open the side navigation
-function openNav() {
-    sideNav.classList.add('show');
-}
-
-// Function to close the side navigation
-function closeNav() {
-    sideNav.classList.remove('show');
-}
-
-// Event listeners
-openNavButton.addEventListener('click', openNav);
-closeNavButton.addEventListener('click', closeNav);
-
-// Close the side navigation when clicking outside of it (optional)
-document.addEventListener('click', (event) => {
-    if (event.target !== sideNav && event.target !== openNavButton) {
-        closeNav();
-    }
-});
-
-// Prevent closing the side navigation when clicking inside it
-sideNav.addEventListener('click', (event) => {
-    event.stopPropagation();
-});
