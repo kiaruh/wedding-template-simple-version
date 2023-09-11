@@ -1,42 +1,3 @@
-// Function to check if the viewport is a mobile device
-function isMobileViewport() {
-  return window.innerWidth <= 780; // You can adjust this value as needed
-}
-
-// Function to toggle element visibility
-function toggleElementVisibility(element, isVisible) {
-  if (isVisible) {
-    element.style.display = "block"; // Show the element
-  } else {
-    element.style.display = "none"; // Hide the element
-  }
-}
-
-// Function to update element visibility based on viewport
-function updateElementVisibility() {
-  const contentElement = document.querySelector(".content");
-  const mobileElement = document.querySelector(".mobileM");
-
-  if (isMobileViewport()) {
-    toggleElementVisibility(contentElement, false); // Hide .content
-    toggleElementVisibility(mobileElement, true); // Show .mobile
-  } else {
-    toggleElementVisibility(contentElement, true); // Show .content
-    toggleElementVisibility(mobileElement, false); // Hide .mobile
-  }
-}
-
-// Call the function when the page loads and when the viewport is resized
-window.onload = function () {
-  updateElementVisibility();
-};
-
-window.addEventListener("resize", function () {
-  updateElementVisibility();
-});
-
-
-
 // countdown
 // Function to calculate and update the countdown
 function updateCountdown() {
@@ -61,10 +22,10 @@ function updateCountdown() {
   document.querySelector('.text-wrapper-7').textContent = minutes;
   document.querySelector('.text-wrapper-8').textContent = seconds;
 
-  // document.querySelector('._172M').textContent = days;
-  // document.querySelector('._12M').textContent = hours;
-  // document.querySelector('._9M').textContent = minutes;
-  // document.querySelector('._18M').textContent = seconds;
+  document.querySelector('.text-wrapper-3M').textContent = days;
+  document.querySelector('.text-wrapper-4M').textContent = hours;
+  document.querySelector('.text-wrapper-5M').textContent = minutes;
+  document.querySelector('.text-wrapper-6M').textContent = seconds;
 }
 
 // Call the updateCountdown function initially
@@ -72,3 +33,36 @@ updateCountdown();
 
 // Update the countdown every second
 setInterval(updateCountdown, 1000);
+
+
+//Nav bar
+// Get DOM elements
+const openNavButton = document.getElementById('icons-interactive-UI');
+const closeNavButton = document.getElementById('element-outline-close-x');
+const sideNav = document.getElementById('wireframe-footer');
+
+// Function to open the side navigation
+function openNav() {
+    sideNav.classList.add('show');
+}
+
+// Function to close the side navigation
+function closeNav() {
+    sideNav.classList.remove('show');
+}
+
+// Event listeners
+openNavButton.addEventListener('click', openNav);
+closeNavButton.addEventListener('click', closeNav);
+
+// Close the side navigation when clicking outside of it (optional)
+document.addEventListener('click', (event) => {
+    if (event.target !== sideNav && event.target !== openNavButton) {
+        closeNav();
+    }
+});
+
+// Prevent closing the side navigation when clicking inside it
+sideNav.addEventListener('click', (event) => {
+    event.stopPropagation();
+});
