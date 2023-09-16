@@ -16,4 +16,15 @@ button:focus-visible {
 a {
   text-decoration: none;
 }
+a:visited {
+  text-decoration: none;
+}
+a:link {
+  text-decoration: none;
+  color: var(--oliva);
+}
+a:active {
+  text-decoration: none;
+  color: var(--oliva);
+}
 @import url("https://fonts.googleapis.com/css?family=Libre+Baskerville:400|Cormorant:500|Poppins:400|Playfair+Display:500");

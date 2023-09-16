@@ -623,7 +623,7 @@
   justify-content: center;
   gap: 10px;
   padding: 100px 521px;
-  background-color: var(--dorado);
+  background-color: var(--rosa);
   flex-direction: column;
   position: relative;
   flex: 0 0 auto;
@@ -647,7 +647,7 @@
   margin-top: -1px;
   font-family: "Cormorant", Helvetica;
   font-weight: 500;
-  color: var(--crema);
+  color: var(--oliva);
   font-size: 40px;
   text-align: center;
   letter-spacing: 0;
@@ -660,7 +660,7 @@
   width: fit-content;
   font-family: var(--body-font-family);
   font-weight: var(--body-font-weight);
-  color: var(--crema);
+  color: var(--oliva);
   font-size: var(--body-font-size);
   text-align: center;
   letter-spacing: var(--body-letter-spacing);
