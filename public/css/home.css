@@ -1002,9 +1002,11 @@ a, a:visited, a:link, a:active{
   }
   
   .mobile .icons-interactive-UI {
+/* BURGER ICON DISPLAY */
     position: relative;
     width: 32px;
     height: 32px;
+    display: none;
   }
   
   .mobile .line {
@@ -1404,7 +1406,7 @@ a, a:visited, a:link, a:active{
   
   .mobile .div-modal-body-wrapper {
     gap: 77px;
-    padding: 100px 0px;
+    padding: 50px 0px;
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
@@ -1519,7 +1521,7 @@ a, a:visited, a:link, a:active{
   
   .mobile .section-dresscode {
     gap: 77px;
-    padding: 100px 20px 0px;
+    padding: 20px 20px 0px;
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
@@ -1948,6 +1950,12 @@ a, a:visited, a:link, a:active{
     text-align: center;
     letter-spacing: 0;
     line-height: 21px;
+  }
+
+  @media (max-width:330px) {
+    .mobile .group {
+      top: 422px
+    }
   }
   
   
