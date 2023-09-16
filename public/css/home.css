@@ -1173,7 +1173,7 @@ a, a:visited, a:link, a:active{
   
   .mobile .flores {
     position: absolute;
-    width: 390px;
+    width: 420px;
     height: 291px;
     top: 0;
     left: 0;
@@ -1183,10 +1183,10 @@ a, a:visited, a:link, a:active{
   
   .mobile .flores-mobile {
     position: absolute;
-    width: 192px;
+    width: 220px;
     height: 371px;
     top: 50px;
-    left: 0;
+    left: -17px;
     transform: rotate(-180deg);
     object-fit: cover;
   }
